@@ -10,12 +10,24 @@ RUN git clone https://github.com/hakimel/reveal.js.git
 RUN cd reveal.js; npm install
 
 # copy index.html from reveal.js
-COPY index.md /slides/
-COPY index.html /slides/
+# COPY index.md /slides/
+
 RUN rm /reveal.js/index.html
-RUN ln -s /slides/index.html /reveal.js/index.html
-RUN ln -s /slides/index.md /reveal.js/index.md
+
+ENV INDEX_FILE=usability
+
+COPY $INDEX_FILE.html /reveal.js/index.html
+# RUN ln -s /slides/index.md /reveal.js/index.md
 
 WORKDIR reveal.js 
-CMD grunt serve
-EXPOSE 8000
+
+ENV PORT=8002
+ENV REALOAD_PORT=35731
+
+#RUN cat node_modules/grunt-contrib-watch/tasks/lib/livereload.js
+RUN sed -i "s/35729/$REALOAD_PORT/" node_modules/grunt-contrib-watch/tasks/lib/livereload.js
+RUN cat node_modules/grunt-contrib-watch/tasks/lib/livereload.js | grep $REALOAD_PORT
+
+CMD grunt serve --port=$PORT
+EXPOSE $PORT
+
