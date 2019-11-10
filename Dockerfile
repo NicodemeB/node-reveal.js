@@ -15,6 +15,7 @@ RUN cd reveal.js; npm install
 RUN rm /reveal.js/index.html
 
 COPY *.html /reveal.js/
+COPY bookmarks/ /reveal.js/bookmarks
 # RUN ln -s /slides/index.md /reveal.js/index.md
 
 WORKDIR reveal.js 
