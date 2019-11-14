@@ -14,6 +14,8 @@ RUN cd reveal.js; npm install
 
 RUN rm /reveal.js/index.html
 
+RUN sed -i 's/font-weight: bold;/color:#3698e3;/' /reveal.js/css/theme/black.css
+
 COPY *.html /reveal.js/
 COPY bookmarks/ /reveal.js/bookmarks
 # RUN ln -s /slides/index.md /reveal.js/index.md
