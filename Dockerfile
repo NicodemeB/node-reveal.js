@@ -17,7 +17,9 @@ RUN rm /reveal.js/index.html
 COPY index.html /reveal.js/
 COPY slides/*.html /reveal.js/slides/
 COPY bookmarks/ /reveal.js/bookmarks
-# RUN ln -s /slides/index.md /reveal.js/index.md
+
+RUN sed -i 's/font-weight: bold;/color:#3698e3;/' /reveal.js/css/theme/black.css
+
 
 WORKDIR reveal.js 
 
