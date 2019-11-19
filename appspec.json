@@ -7,3 +7,4 @@ Resources:
         LoadBalancerInfo:
           ContainerName: "UCIS"
           ContainerPort: 80
+          
