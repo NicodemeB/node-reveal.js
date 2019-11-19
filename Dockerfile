@@ -14,7 +14,7 @@ RUN cd reveal.js; npm install
 
 RUN rm /reveal.js/index.html
 
-COPY index.html /reveal.js/
+COPY *.html /reveal.js/
 COPY slides/*.html /reveal.js/slides/
 COPY bookmarks/ /reveal.js/bookmarks
 
