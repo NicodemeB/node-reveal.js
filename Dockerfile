@@ -18,7 +18,7 @@ COPY *.html /reveal.js/
 COPY slides/*.html /reveal.js/slides/
 COPY bookmarks/ /reveal.js/bookmarks
 
-RUN sed -i 's/font-weight: bold;/color:#3698e3;/' /reveal.js/css/theme/black.css
+RUN sed -i 's/font-weight: bold;/color:#42affa;/' /reveal.js/css/theme/black.css
 
 
 WORKDIR reveal.js 
