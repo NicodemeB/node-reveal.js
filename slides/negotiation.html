@@ -25,11 +25,11 @@
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-markdown="https://annuel.framapad.org/p/ucis_siedel_01_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
-            <section data-markdown="https://annuel.framapad.org/p/ucis_siedel_02_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
-            <section data-markdown="https://annuel.framapad.org/p/ucis_siedel_03_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
-            <section data-markdown="https://annuel.framapad.org/p/ucis_siedel_04_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
-            <section data-markdown="https://annuel.framapad.org/p/ucis_siedel_05_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
+            <section id="chapter1" data-markdown="https://annuel.framapad.org/p/ucis_siedel_01_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
+            <section id="chapter2" data-markdown="https://annuel.framapad.org/p/ucis_siedel_02_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
+            <section id="chapter3" data-markdown="https://annuel.framapad.org/p/ucis_siedel_03_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
+            <section id="chapter4" data-markdown="https://annuel.framapad.org/p/ucis_siedel_04_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
+            <section id="chapter5" data-markdown="https://annuel.framapad.org/p/ucis_siedel_05_asxckiikt5/export/txt" data-separator="^>>>>>" data-separator-vertical="^VVVVV" data-separator-notes="^Notes:"></section>
         </div>
     </div>
 
@@ -56,6 +56,46 @@
                 slideNumber: 'c/t'
                 //slideNumber: true
             });
+                document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "1" ) { 
+                window.location.replace ('#/chapter1')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "2" ) { 
+                window.location.replace ('#/chapter2')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "3" ) { 
+                window.location.replace ('#/chapter3')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "4" ) { 
+                window.location.replace ('#/chapter4')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "5" ) { 
+                window.location.replace ('#/chapter5')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "6" ) { 
+                window.location.replace ('#/chapter6')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "7" ) { 
+                window.location.replace ('#/chapter7')
+            }
+        }, false );
+        document.addEventListener( 'keydown', function( event ) {
+            if( event.key == "8" ) { 
+                window.location.replace ('#/chapter8')
+            }
+        }, false );
     </script>
 </body>
 </html>
