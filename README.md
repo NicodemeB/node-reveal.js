@@ -20,3 +20,9 @@ docker run --name <YOUR_DOCKER_NAME> --rm -d  \
 	-v "$(pwd)/bookmarks/:/reveal.js/bookmarks/"  \
 	-p "127.0.0.1:1234:80" "node-reveal.js:latest"
 ````
+
+## Stop Slideshow
+
+````bash
+docker stop <YOUR_DOCKER_NAME>
+````
