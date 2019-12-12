@@ -1,0 +1,460 @@
+# Usability - Chapter 3
+### Evaluation: usability studies, A/B testing, quantitative and qualitative evaluation, cybersecurity case study
+
+VVVVV
+ # Agenda  
+- Qualitative Evaluation
+	- Cognitive Walkthrough
+	- Heuristic Analysis
+	- Controlled Experiments
+- Usability Studies  
+- A/B Testing  
+- Case Study    
+ 
+>>>>>
+ ### Qualitative Evaluation
+ - General Overview  
+	 - Qualitative Evaluation: Sense of Usability  
+	 - Quantitative evaluation =/= Qualitative Evaluation 
+	
+Notes:
+- Qualitative Evaluation Is more design to give you  a sense of usability  or to put you in the place of the user 
+- The objectives of the Quantitative Evaluation is to evaluate system or prototype of system 
+- There  are two classes of evaluation:   
+- Quantitative evaluation and qualitative evaluation    
+	- Quantitative evaluation contrast with qualitative evaluation where we are taking measurement    (We saw this last week with concept such as: Speed, accuracy, learnability, memorability and user's preferences) and collecting numbers so that we can do numerical, mathematical analysis  
+- Quantitative evaluation is about making measurements. Therefore, you should know exactly what question you want answers to and what actions you will take based on the measurement (more than x do y, else do z)
+- Qualitative evaluation is about exploring the subject, getting ideas. It is often used to help us define the questions to ask in the quantitative evaluation or to obtain new ideas (like brainstorming session or focus groups)
+
+VVVVV
+## Qualitative Evaluation Techniques  
+
+- Cognitive Walktrough  
+- Heuristic Analysis 
+- Personas  
+- A/B Testing  
+
+VVVVV
+ ### Cognitive Walkthrough 
+ 
+- Requirements    
+	- Description or prototype of interface    
+	- Task description    
+	- List of actions to complete task   
+	- User background  
+	
+Notes: 
+- The items in Cognitive Walkthrough can be done with:  
+    - an interface or  
+    - a prototype of an interface  
+
+- Task and actions  
+	- You come up with a list of actions 
+	- User background: need to develop an idea of the user background  
+ 
+VVVVV
+### Prototype 
+- Gesture based authentication system prototype  
+- Cognitive Walkthrough objectives     
+- Whether users know how to perform actions  
+- Paper based prototype   
+
+VVVVV
+### Prototype (Cont')  
+![](https://framapic.org/QjzYcwoKg1C1/Fy6uvgFAEAiD.jpg)
+
+VVVVV
+![](https://framapic.org/1B6ZMahshC0u/eNOgSDxJBlWO)
+
+VVVVV
+### Prototype (Cont')
+
+- Task description:    
+	- Authenticating  & login   
+	- Enter One's distinctive gesture  
+-  Action: user must input gesture    
+	- Click the ON Button  
+- User background: Tech savvy & Non-tech savvy users
+
+Notes:
+- Requirements   
+	- Description or prototype of interface: A phone login systme    
+	- Task description: user need to authenticate to login     
+	- List of actions to complete task:                
+		- input gesture    
+- User background: Prety general set of users   
+
+VVVVV
+### What we look for: 
+- Will users know how to perform the action?  
+- Will users see the control?  
+- Will users know the control does what they want?  
+- Will users understand the feedback?  
+
+VVVVV
+ ![](https://framapic.org/ymPuKho2XAX3/AKv0aGVnQa7i)
+
+VVVVV
+### Heuristic Analysis
+
+- Follow "Rules of thumb" or Suggestions about good design  
+
+- Can be done by experts/designers, fast and easy  
+
+- May miss problems users would catch 
+ 
+Notes: 
+    - When you do Heuristic analysis you follow rules of thumb  or suggestions about good design You go through  the interface with a set of what you think are representative task or what users would do and then check whether  these rules are follow
+    - Based on rules established by experience, average, other situations. general rules usually valid in lots of systems.
+
+VVVVV
+###  Heuristic Analysis' Rules example: Jakob Nielsen's 10 rules of Heuristic    
+- Simple and natural dialog
+- Speak the user's language
+- Minimizing the user's memory load
+- Consistency 
+- Giving good feedback
+
+Notes:
+	* https://en.wikipedia.org/wiki/Heuristic_evaluation#Nielsen Wikipedia contributors. (2019, October 3). Heuristic evaluation. In Wikipedia, The Free Encyclopedia. Retrieved 14:00, October 18, 2019, from https://en.wikipedia.org/w/index.php?title=Heuristic_evaluation&oldid=919475206
+    * KISS: Keep it simple and stupid
+    * Memory load: see notion of chuncks
+    *? What is good feeback? Because "giving good feedback" is barely an advice. Who would think giving a bad one would be a suggestion to consider. If one does not specify what good feedback is ... it's not saying much.
+
+ 
+VVVVV
+ ###   Heuristic Analysis' Rules example: Nielsen's Heuristic     (Cont') 
+- Nielsen's Heuristic         
+- Clearly marked  exits         
+- Shortcuts         
+- Preventing errors         
+- Good errors message         
+- Providing helps and documentation  
+ 
+VVVVV
+### Heuristic Analysis  example
+ ![External Image]![](https://framapic.org/dV461RYvlVSB/y8DpxAJoIKNV) 
+
+VVVVV
+### Qualitative evaluation: Personas  
+- Fictitious user representing a class of users  
+- Reference point for design and analysis  
+- Goals or goal to accomplish  
+
+Notes: 
+- This method consist of coming with user (Fictitious) representing class of users these Fictitious users then become Reference point for any design and analysis work  
+- When designing a system you to ask who the users are and look at this system and ask whether the  persona can use that system question whether the system meets his goal   
+
+VVVVV
+### Example of Persona Cont' 
+![](https://framapic.org/FIb2dDdYFJ8d/3SJeLH1tGwPR)
+
+VVVVV
+![](https://framapic.org/ucfg0EcNZAiE/bhW2kDf0GFlE)
+
+VVVVV
+### Conclusions 
+- Qualitative evaluation provide insights into the system usability
+- Various level of complexity
+- Can be quick and inexpensive, but may miss insights users provide 
+
+Notes: 
+- Qualitative evaluation can provide insights into the usability of a system without measurement and timing
+- Various level of complexity     
+- Heuristic evaluation pretty straightforward     
+- Development of good persona  is a time consuming process    
+
+VVVVV
+### Controlled Experiments  
+Notes: Running controlled experiments is a great thing that designer needs to do if they are trying to analyze the usability of a system   
+
+VVVVV
+### Controlled Experiments Processes 
+- State a lucid, testable hypothesis 
+- Identify independent (what you do) and dependent (what you measure) variables 
+- Design experimental protocol 
+- Running some pilot participants   
+
+VVVVV
+### Controlled Experiments Processes (con't)
+- Fix the experimental protocol 
+- Run the experiment 
+- Perform statistical analysis 
+- Draw Conclusions 
+- Communicating  results 
+
+Notes: 
+This is a scientific methodology 
+	- State a lucid, testable hypothesis:  The process does start by testing and lucid, testable hypothesis  
+	- Identify independent and dependent variables  The variables are things that are going to be modified and measured  
+	- Design experimental protocol  The protocol is the actual steps to be used to carry on the hypothesis  
+	- Design experimental protocol  Hopefully the people that are going to use the system. In case real users are not  available person with similar experience can be chosen. 
+		- Perform statistical analysis - after collecting data from participants, this step is performed   
+
+VVVVV
+###  Example: Mobile phone logging
+![](https://framapic.org/4yKWiBHBj2mo/lMasgKN2VWxX)  
+STEP1:  State a lucid, testable hypothesis
+"Mobile phone login with fingerprint  is faster than with PIN entry"  
+
+VVVVV
+###   Choose the variables: example cont's  
+- Manipulate one or more independent variables    
+- Login Method  
+- Observe effect on one or more dependent variables    
+- Time to login  
+
+Notes:
+- The independent variables are thing that you change or Manipulate 
+- Dependent variables are things that you measure 
+- A list of both is needed  
+
+VVVVV
+###  Design experimental protocol 
+- Choose tasks (refer section task definition)
+- Between or within subjects?    
+	- Between subjects: each subjects run one condition
+	- Within subjects: each subjects runs several conditions
+
+Notes: 
+The experimental protocol
+- They are actually things that people will go through when doing their experiment         
+- The experimental protocol is a mandatory step when during measurement            
+Choose firstly the tasks (clear concrete things that users will do)  
+- If we do a between experiment for the phone loging         we would typically have half of the people loging with passcode         and the other half with fingerpring  <- what does this sentencemean "do a between" ?
+
+VVVVV
+###  Design experimental protocol example
+![](https://framapic.org/rbA70XJyDNyI/l8EU1BrwhuIF)  
+
+VVVVV
+### Run the experiment 
+-  Run a pilot study!
+	- Study the study ... "Designing a study ... on a product design" is already design task that needs testing.
+-  Have a check list of steps
+-  Collect data
+
+Notes: 
+- Have a check list of steps (you need the steps to be the same for all users)
+- You should literally have  list giving the same set of instruction to everyone 
+- Collect data 
+- After getting everyone to do the experiment you collect data for analysis purpose   
+
+VVVVV
+### Analysis 
+
+- Statistical analysis (e.g. t-test) 
+ 
+- Report results
+![](https://framapic.org/z9ktetEk0J3r/iAbyt0c3Egnu)
+ 
+Notes:
+* t-test: standard statistical test
+* ? what is a t-test
+* ?relevance of t-test? under which assumption? Wasn't it discredited?
+
+>>>>>
+### Usability Studies
+
+VVVVV
+### What is it?  
+- Analyze how usable a system is
+
+Notes: 
+    - This is a fundamental part of analyzing the usability of a system,  Whether it's a security system, a website or a mobile application <- "usability studies is a fundamental part of analyzing the usability of a system"? isnt that circular reasonning?
+     - Run  a usability study to judge how an interface facilitates tasks with respect to the aspects of usability mentioned earlier 
+     - Aspect of usability studies: Speed, efficiency, learnability, memorability,   user preferences (we discussed these aspects earliers 
+      - We can run these tasks by having users sitting in front of a system run the tests, then collecting data for analysis  
+
+VVVVV
+### Testing usability of security 
+
+- Security itself isn't usually a frequent task, or objective
+
+- Good security is seamless part of task
+
+It is a property of a task, how it should be done not what we are trying to achieve
+
+Notes: 
+    - when testing usability of security it's important to get in mind security is rarely the task users set  out to accomplish  
+    - Security should be part of the background   
+
+VVVVV
+### Usability Study Process 
+
+- Define task (and their importance) 
+
+- Develop questionnaires  
+
+Notes: 
+-  Define task (and their importance)  
+	- Find out most obvious things that users are trying to do in a system  
+- Develop Questionnaires         
+	- Used to collect data a time. Can ask people about their opinion in the Questionnaires         
+		Asking people for their feedback on thing they did like or did not   
+
+VVVVV
+### Selecting Tasks 
+- Task !=  question  
+- Be specific  but not too much
+	- Don't be vague or provide tiny insignificant tasks  
+- Choose meaningful tasks
+
+Notes: 
+- Good task vs Bad task         
+	- Create an itinerary between Boston and los Angeles        
+	- How many flight are available between ... ?  
+	
+- Be specific        
+	 - users should not have to figure out what they are asked to get done  
+	
+- Choose representative tasks         
+	- Choose representative tasks that reflect the most important things a user would do with the interface   
+
+VVVVV
+###  Security Tasks  
+- Security is almost never a task by itself
+	- except if you are the security officer testing the new security system ... but we are not discussing this particular case
+- Good task for banking website    
+	- Check balance
+	- Make a transfer 
+	
+- Bad task for  banking website  
+	- Login to your account
+	
+Notes:
+	- Security tasks should be running in normal flow of tasks that people are doing  
+
+VVVVV
+### Pre-Test Questionnaires 
+- Learn any relevant background about the subjects  
+
+VVVVV
+###  Post-Test Questionnaires
+- Have user provide feedback on the interface   
+
+VVVVV
+### Evaluation  
+- Users are given a list of tasks and asked to perform each task  
+
+-  Interaction with user is governed by different protocols
+
+Notes:
+User's interaction is governed by some different way of observing  the tasks, what we would call observation protocol
+
+VVVVV
+### Observations protocol  
+- Silent observer  
+- Think aloud  
+- Constructive Interaction 
+
+Notes:         
+    - There are three major of observation protols   
+
+VVVVV
+### Interview 
+- Ask users  to give  you feedback   
+
+VVVVV
+### Report 
+- Reporting results  
+- Summarize the experiences of users!  
+- Emphasize your insights 
+- Offer suggestions for improvement  
+
+Notes: 
+- Lessons:  
+	- What part of a site or application are easy or hard to use 
+	- How usable is the site for each task  - what improvement can be done to improve usability 
+
+- Emphasize your insights        
+	- Emphasize your insights with specific examples or quotes 
+	- Offer suggestions for improvement         
+	- Offer suggestions for improvement for tasks that were difficult to perform    
+
+>>>>>
+### A/B Testing   
+
+VVVVV
+- A/B Testing         
+	-  Not relying on Cognitive or psychological understanding of user's behavior 
+	- Present users with option A and B & measure the performance  
+	
+- Good method to pickup best solution
+- Instead of using an "absolute" approach, you use a "relative" one. You do not measure if a system is good, but only if it's better or worse than another one
+
+Notes: 
+    You can put these options live in your application and measure how well they perform. 
+    Allowing to find tremendous difference in performance based on very tiny changes in the way interface work  
+		- This can be done to measure which sorts of security features like authentication mechanism are more effective, but it can be used  in all kinds of ways.   
+
+VVVVV
+### A/B Obama campaign website example1
+![](https://framapic.org/yroQc0x0D29E/jT0WfBk7xDAp)
+
+VVVVV 
+ ### A/B Obama campaign website example1
+![](https://framapic.org/s9a1kc49aAhi/5eyTdUS9KdCh)
+
+VVVVV
+ ### A/B Obama campaign website example1
+![](https://framapic.org/GNpqz8k4aOFM/TlCsqKaDlt0f)  
+
+VVVVV
+### A/B Obama campaign website example2
+![](https://framapic.org/OqQp6wnItdP6/VRm0U37viz7x)
+
+VVVVV
+![](https://framapic.org/7HZbzJA4Lpdv/sehRh2U8WX74)  
+
+VVVVV
+![](https://framapic.org/VJY996pDSBKm/a1cRz4oqva53)
+
+VVVVV
+### A/B Twitter campaign example  
+![](https://framapic.org/xQFcpjuzOPKV/UIubvZlWV3Ar)
+
+VVVVV
+### Running A/B Test Details 
+- Start with a small percentage of visitors trying the experimental conditions  
+- Automatically stop testing if any condition has very bad performance  
+- Let people consistently see the same variation so they do not get  confused   
+
+VVVVV
+### Conclusions 
+- Small tweaks in the Interface can lead to big difference in user behavior 
+- A/B Testing allows you to check  that by showing different versions of the site to people
+
+>>>>>
+### Case Study
+
+VVVVV
+- Goal:         
+    - Effectiveness of web browser phishing warning  
+
+VVVVV
+![](https://framapic.org/1Oqa18rqoLKs/it4qxbzm2xzh)
+
+VVVVV
+![](https://framapic.org/NaU4i9alJra5/3Mr1frQlgC1I) 
+
+VVVVV
+![](https://framapic.org/ZwlO319plMGa/zPsJVUt99kWO) 
+
+VVVVV
+![](https://framapic.org/klkSpeDd8VRn/7tyRPscSiHsn)
+
+VVVVV
+![](https://framapic.org/yPYq7s1PWCx3/NgRZhdHTThXw)
+
+VVVVV
+![](https://framapic.org/7dSLLGAHXWfY/CyknrVokuDxz) 
+<- this should not be a screenshot
+
+Notes:         
+When evaluation usability we often measure: speed, efficiency  ...   
+but security  behavior is not one of the list. So but how do we measure       \   
+User security behavior?         
+That where efficiency plays. When we are measuring security behavior   
+of a user we measure the efficiency  of the security features 
+- It would be nice to update the screenshots of warning to current date TLS warnings
