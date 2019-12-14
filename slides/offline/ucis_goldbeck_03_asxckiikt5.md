@@ -15,7 +15,7 @@ VVVVV
  ### Qualitative Evaluation
  - General Overview  
 	 - Qualitative Evaluation: Sense of Usability  
-	 - Quantitative evaluation =/= Qualitative Evaluation 
+	 - Quantitative evaluation ≠ Qualitative Evaluation 
 	
 Notes:
 - Qualitative Evaluation Is more design to give you  a sense of usability  or to put you in the place of the user 
@@ -98,9 +98,7 @@ VVVVV
 ### Heuristic Analysis
 
 - Follow "Rules of thumb" or Suggestions about good design  
-
 - Can be done by experts/designers, fast and easy  
-
 - May miss problems users would catch 
  
 Notes: 
@@ -113,7 +111,7 @@ VVVVV
 - Speak the user's language
 - Minimizing the user's memory load
 - Consistency 
-- Giving good feedback
+- Giving ~~good~~ feedback
 
 Notes:
 	* https://en.wikipedia.org/wiki/Heuristic_evaluation#Nielsen Wikipedia contributors. (2019, October 3). Heuristic evaluation. In Wikipedia, The Free Encyclopedia. Retrieved 14:00, October 18, 2019, from https://en.wikipedia.org/w/index.php?title=Heuristic_evaluation&oldid=919475206
@@ -133,7 +131,7 @@ VVVVV
  
 VVVVV
 ### Heuristic Analysis  example
- ![External Image]![](https://framapic.org/dV461RYvlVSB/y8DpxAJoIKNV) 
+![](https://framapic.org/dV461RYvlVSB/y8DpxAJoIKNV) 
 
 VVVVV
 ### Qualitative evaluation: Personas  
@@ -251,7 +249,7 @@ VVVVV
 Notes:
 * t-test: standard statistical test
 * ? what is a t-test
-* ?relevance of t-test? under which assumption? Wasn't it discredited?
+* ? relevance of t-test? under which assumption? Wasn't it discredited?
 
 >>>>>
 ### Usability Studies
@@ -428,7 +426,6 @@ VVVVV
 >>>>>
 ### Case Study
 
-VVVVV
 - Goal:         
     - Effectiveness of web browser phishing warning  
 

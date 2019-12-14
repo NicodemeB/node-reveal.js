@@ -1,4 +1,4 @@
-≤# Influence - Chapter  4: The social proof principle
+# Influence - Chapter  4: The social proof principle
 
 VVVVV
 ## Structure 

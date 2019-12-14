@@ -281,16 +281,23 @@ Break
 ## Face recognition - 2D vs. 3D
 <!-- .slide: data-background=" #c32c2c" -->
 
-→ 2D: "A facial recognition system is a technology capable of identifying or verifying a person **from a digital image** or a video frame **from a video** source"
+→ 2D: "A facial recognition system is a technology capable of identifying or verifying a person **from a digital image** or a video frame **from a video** source"[1]
 
-<small>Wikipedia contributors. (2019, November 29). Facial recognition system. In Wikipedia, The Free Encyclopedia. Retrieved 10:41, December 8, 2019, from https://en.wikipedia.org/w/index.php?title=Facial_recognition_system&oldid=928468536 </small>
+→ 3D: "Three-dimensional face recognition (3D face recognition) is a modality of facial recognition methods in which the **three-dimensional geometry of the human face is used**."[2]
 
-→ 3D: "Three-dimensional face recognition (3D face recognition) is a modality of facial recognition methods in which the **three-dimensional geometry of the human face is used**." 
+<small>[1] Wikipedia contributors. (2019, November 29). Facial recognition system. In Wikipedia, The Free Encyclopedia. Retrieved 10:41, December 8, 2019, from https://en.wikipedia.org/w/index.php?title=Facial_recognition_system&oldid=928468536 </small>
 
-<small> Wikipedia contributors. (2019, November 7). Three-dimensional face recognition. In Wikipedia, The Free Encyclopedia. Retrieved 10:39, December 8, 2019, from https://en.wikipedia.org/w/index.php?title=Three-dimensional_face_recognition&oldid=925009688 </small>
+<small> [2] Wikipedia contributors. (2019, November 7). Three-dimensional face recognition. In Wikipedia, The Free Encyclopedia. Retrieved 10:39, December 8, 2019, from https://en.wikipedia.org/w/index.php?title=Three-dimensional_face_recognition&oldid=925009688 </small>
 
 Notes:
 - Next : video of testing different smartphone with 2D et 3D face regonition
+
+VVVVV
+<!-- .slide: data-background=" #c32c2c" -->
+## Face recognition
+
+- Intuitively we feel that 2D FR can be tricked, but is it really the case ?
+- What about 3D FR ?
 
 VVVVV
 ## Face recognition
@@ -310,6 +317,10 @@ VVVVV
 <!-- .slide: data-background=" #c32c2c" -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g4m6StzUcOw?start=27" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Notes:
+- 3D FR, ok, but how does that work IRL ?
+
+→ So unbreakable of course ?
 
 VVVVV
 ## Face recognition 
@@ -318,10 +329,17 @@ VVVVV
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rhiSBc061JU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Notes:
+- Not in video in this presentation but there is also tricks with twins
+- Also in the beginning Apple's FaceID  had issue to distinguish Asian 
+
 VVVVV
 ## Face recognition 
 <!-- .slide: data-background=" #c32c2c" -->
 ![](https://framapic.org/Scid3plRz5Kq/ZsO5ax8IV2tC)
+
+Notes:
+Followed the link in the video description to have more intel on the exploit, BUT → 
 
 VVVVV
 ## Face recognition 
@@ -355,8 +373,10 @@ VVVVV
 
 If not wrong: bypass the "attention" mechanism → eyes must be opened to unlock the phone 
 
-
 <small> L. O’Donnell, “Biometrics Flaws Uncovered To Bypass Apple FaceID,” threatpost, 08-Aug-2019. [Online]. Available: https://threatpost.com/researchers-bypass-apple-faceid-using-biometrics-achilles-heel/147109/. [Accessed: 08-Dec-2019]. </small>
+
+Notes:
+- Attention mechanism : must look with open eyes at the phone to unlock it 
 
 >>>>>
 <!-- .slide: data-background=" #c32c2c" -->
@@ -371,7 +391,7 @@ Notes:
 
 VVVVV
 <!-- .slide: data-background=" #c32c2c" -->
-#### The most important thing is ...
+### The most important thing is ...
 ![](https://framapic.org/QAMFuLdBSh2H/QxDQrdfE5hyf)
 
 VVVVV
@@ -383,16 +403,16 @@ MythBusters - Episode 59 – "Crimes and Myth-Demeanors 2", Original air date: A
 
 VVVVV
 <!-- .slide: data-background=" #c32c2c" -->
-#### Fingerprint 
+### Fingerprint 
 
 Bypassable ? Not easy but totally doable  
 
-Difficulty ? Layer 1 security 
+Difficulty ? **Layer 1 security**
 
 
 VVVVV
 <!-- .slide: data-background=" #c32c2c" -->
-#### Fingerprint 
+### Fingerprint 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pIY6k4gvQsY?start=1502" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Notes:
@@ -551,7 +571,7 @@ Conductive ink
 - What about using different "password" on different systems to avoid all systems to be compromised at once ? 
 	- → Still only **1 face, 10 fingers, 1 voice**
 - What about publicity of our biometrics ? 
-	- → Social media ? Impossible for** VIPs**
+	- → Social media ? Impossible for **VIPs** usually exposed on social media, TV or press
 
 
 Notes:
@@ -571,4 +591,14 @@ VVVVV
 	- Physical access
 - New types of interesting attacks
 
+VVVVV
+## Conclusion
+<!-- .slide: data-background=" #c32c2c" -->
 
+- Biometrics can be **really usable**, but **it is bypassable**
+- The only obstacle is the **layer 1**
+
+![](https://framapic.org/cNmbbCcbjsNb/2K98A1OF8ke2)
+
+Notes:
+Real issue for politician, famous people etc 

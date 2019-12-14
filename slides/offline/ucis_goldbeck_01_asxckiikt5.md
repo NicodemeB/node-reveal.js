@@ -54,10 +54,13 @@ VVVVV
 ## Human-Computer interaction
 
 VVVVV
+### Human-Computer interaction
 - Human-computer interaction  or HCI, is the study of how people interact with technology
+
 ![](https://framapic.org/rFrL5lmmDYus/APoYjHVdM1BR)
 
 VVVVV
+### Human-Computer interaction
 - Users may include:
     - Non mobile workers working with computers
     - Mobile workers
@@ -114,11 +117,11 @@ VVVVV
 VVVVV
 ## Measuring usability
 Factors to be considered when measuring usability:
-  - Speed: How quickly can the task be accomplished
-  - Efficiency: How many mistake are made in accomplishing the tasks
-  - Learnability: How easy is it to learn to use the system
-  - Memorability: Once learned, how easy it is to remember how to use the system
-  - User preference: it's about what the users like the most
+  - **Speed**: How quickly can the task be accomplished
+  - **Efficiency**: How many mistake are made in accomplishing the tasks
+  - **Learnability**: How easy is it to learn to use the system
+  - **Memorability**: Once learned, how easy it is to remember how to use the system
+  - **User preference**: it's about what the users like the most
 
 Notes:
 - A good system design may not include all of these metric in order to have good usability, there may be trade off somehow.
@@ -135,32 +138,38 @@ VVVVV
 ### Learnability measurement
 ![](https://framapic.org/uctPCPkJ9RYW/oBs8RyVZxUf3)
 
+Notes:
+Learning curve
+
 VVVVV
 ### Memorability Measurement
 ![](https://framapic.org/y4x6ikr7rlEF/Wj6bRpkrvfrI)
 
+Notes:
+"Bad" memorable system 
+
 VVVVV
 ![](https://framapic.org/1clQOEoeN18X/o0SFUmoIgftX)
 
+Notes:
+"Good" memorable system 
+
 VVVVV
 ## Tasks & Task analysis
-- Analyzing the Usability of a system requires a set of task
-
+- **Analyzing** the Usability of a system **requires** a set of **task**
 - Task are goals that users set out to accomplish in a system
-
-Notes:
 
 VVVVV
 ### Common errors in task creation
-- Leading or too descriptive
-- specific questions
-  - what is the third headline on ccn.com?
+- **Leading** or **too descriptive**
+- Specific questions
+  - Example: what is the third headline on ccn.com?
 - Directing users towards things you want to tell  them, not what they want to know
 
 VVVVV
 ### Comparing tasks between systems
 - To evaluate the usability of a system we can create a representative list of task
-- evaluate the usability  of these tasks
+- Evaluate the usability  of these tasks
 - The illustration of file creation
 
 Notes:
@@ -168,6 +177,7 @@ Leading and too descriptive:
 - Click on the username box at the upper  right of the screen and enter your username,
   then click on the password box underneath it and enter your password. Click submit
 - specific questions
+
 Tasks are too abstract to apprehend at first hand,
 in order to test the usability of a system we need to create a set of task,
 come up with specific goal that users wanna accomplish and analyzing the usability of those goal.
@@ -234,22 +244,22 @@ VVVVV
 ![](https://framapic.org/TOcIG7xJlPmh/Ycx9Sz9uqpaJ)
 
 VVVVV
-### what is it about?
-- an explanation of someone's thought process about how something works in the real world.
-- a representation of the surrounding world, the relationships between its various parts
-  and a person's intuitive perception about his or her own acts and their consequences
-  (Wikipedia)
+### What is it about?
+- An explanation of someone's thought process about how something works in the real world. [1]
+- A representation of the surrounding world, the relationships between its various parts
+  and a person's intuitive perception about his or her own acts and their consequences. [1]
 - It's an important part of Usability
+
+<small>[1]  Wikipedia contributors. Mental model. Wikipedia, The Free Encyclopedia. October 24, 2019, 18:02 UTC. Available at: https://en.wikipedia.org/w/index.php?title=Mental_model&oldid=922845312. Accessed December 12, 2019.</small>
 
 VVVVV
 ### The use of previous experience
 - To using a new system users do rely on mental model based:
+	- On previous experiences
+	- Previous system that they have been using
 
-  - on previous experiences
-
-  - Previous system that they have been using
-
-Notes: user
+Notes: 
+user
 
 VVVVV
 ### Mental Model Development
@@ -270,6 +280,7 @@ VVVVV
 VVVVV
 ### Affordance: Mapping
 Describing how functionalities matching something that you need
+
 ![](https://framapic.org/TUmLdpmOvI4N/2WeClLUfb6VZ)
 
 Notes:

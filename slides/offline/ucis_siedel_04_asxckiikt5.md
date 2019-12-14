@@ -1,10 +1,7 @@
 # Negotiation - Chapter 4
 ## Perform and Evaluate: The End Game
 
-![](https://framapic.org/MxB0ic2zFUsI/y7JdKkiJcoDl)
-
-VVVVV
-## Perform and evaluate
+![](https://framapic.org/609DdhVp4TF0/Tbho8QRj1VSU)
 
 VVVVV
 ## Litterature
@@ -21,6 +18,8 @@ VVVVV
 - Mediation
 - Contract performance
 
+Notes:
+ADR : Alternative dispute resolution
 
 >>>>>
 # Global view
@@ -36,9 +35,9 @@ VVVVV
 
 Notes:
 - Problem
-        - payment 
-        - delivery 
-        - quality 
+	- payment 
+	- delivery 
+	- quality 
 
 
 VVVVV
@@ -53,20 +52,22 @@ Notes:
 VVVVV
 ## Importance of the tool
 
-- Important tool for non-lawyer 
+- Important tool for **non-lawyer**
 - Three parts 
 	- Negotiate ADR contract clauses
 	- Participate in ADR processes
 	- Act as third party in resolving work disputes
 
 Notes:
+Non-lawyer: because we don't need them to resole the dispute in a more business oriented way 
+
 - Negotiate ADR contract clauses
-        - Understand what we are negotiating 
+	- Understand what we are negotiating 
 - Participate in ADR processes
-        - Understand what are those processes
+	- Understand what are those processes
 - 3rd party 
-        - You will be the arbitrator / mediator resolving day to day disputes
-                - Family disputes, working disputes ...  
+	- You will be the arbitrator / mediator resolving day to day disputes
+		- **Family disputes, working disputes** ...  
 
 
 >>>>>
@@ -80,12 +81,12 @@ VVVVV
 Notes:
 - We can win the court but lose anyway 
 - Because we lose 
-        - legal costs of the proceedings
-        - damages to pay 
-        - destroying business relationship
-                - trust from the other side 
-                - a client 
-                - could be a bad advertisement 
+	- legal costs of the proceedings
+	- damages to pay 
+	- destroying business relationship
+		- trust from the other side 
+		- a client 
+		- could be a bad advertisement 
 - Src : https://www.azquotes.com/picture-quotes/quote-i-was-never-ruined-but-twice-once-when-i-lost-a-lawsuit-and-once-when-i-won-one-voltaire-131-20-13.jpg
 
 
@@ -99,14 +100,14 @@ Notes:
 - Always in search of excellence
 - How responsive they are to customers 
 - Experience
-        - checked in the hotel 
-        - asked for a wake up call 
-        - The call never came 
-        - Had set two backups 
-        - on check out 
-                - filled out little card explaining the problem 
-        - After two weeks 
-                - received a letter from the president to apology 
+	- checked in the hotel 
+	- asked for a wake up call 
+	- The call never came 
+	- Had set two backups 
+	- on check out 
+		- filled out little card explaining the problem 
+	- After two weeks 
+		- received a letter from the president to apology 
 - Src : https://images.trvl-media.com/hotels/11000000/10920000/10912000/10911958/d1955040_z.jpg
 
 
@@ -117,32 +118,32 @@ VVVVV
 
 Notes:
 - Connie Francis 
-        - International star
+	- International star
 - Howard johnson hotel 
-        - she was raped into her room 
-        - She never received any apologies from Howard Johnson
-        - She was very angry 
+	- she was raped into her room 
+	- She never received any apologies from Howard Johnson
+	- She was very angry 
 - Guessing
-        - The board of directors + attorneys 
-                - Should we apology ? 
-                - Traditional approach 
-                        - If she goes to court she will not win 
-                        - Not because of us
-                        - Do not communicate with her to not being liable
-                - She was shocked and angry 
-                        - She got a lawyer
-                        - They did to court and she won 
-                        - They lost a lot of money and bad reputation
+	- The board of directors + attorneys 
+		- Should we apology ? 
+		- Traditional approach 
+			- If she goes to court she will not win 
+				- Not because of us
+				- Do not communicate with her to not being liable
+		- She was shocked and angry 
+			- She got a lawyer
+			- They did to court and she won 
+			- They lost a lot of money and bad reputation
 - Src : https://content.r9cdn.net/rimg/himg/3e/a9/a9/ice-28398-photo.aspx_did=2692_brochureid=28398_publicid=35168749_instanceid=13-image.jpg?crop=true&width=500&height=350
 
 
 VVVVV
 ## Benefits 
 
-- Improve the quality of the service
-- Do not go to the court 
-- Do not lose clients
-- Do not break the image of the company
+- **Improve the quality of the service**
+- Do not go to the **court**
+- Do **not lose clients**
+- Do **not break the image of the company**
 
 VVVVV
 ## Way to handle
@@ -153,7 +154,7 @@ VVVVV
 
 Notes:
 - Social media 
-        - take care of sending standardised responses
+	- take care of sending standardised responses
 
 
 
@@ -167,12 +168,12 @@ VVVVV
 	- non-binding process 
 	- parties to a dispute work with an impartial third party
 		- helps them to reach a settlement
-		- mediator does not decide the case 
+		- **mediator does not decide the case**
 		- facilitates a consensual agreement
 
 Notes:
 - International trademark association 
-        - https://www.inta.org/Mediation/Pages/AboutADRandMediation.aspx
+	- https://www.inta.org/Mediation/Pages/AboutADRandMediation.aspx
 
 
 VVVVV
@@ -190,17 +191,17 @@ VVVVV
 
 - Bosses got a phone call 
 - Remarked they handle business problems everyday
-- Why do not get together and resolve it ? 
+- Why do not get **together** and **resolve** it ? 
 	- Came back with a structure 
 	- First mini trial 
 
 Notes:
 - Structure
-        - 5 people 
-                - Exec vice president of TRW 
-                - President of telecredit 
-                - 2 attorneys 
-                - neutral party / expert of intellectual property
+	- 5 people 
+		- Exec vice president of TRW 
+		- President of telecredit 
+		- 2 attorneys 
+		- neutral party / expert of intellectual property
 
 
 VVVVV
@@ -216,10 +217,10 @@ VVVVV
 
 Notes:
 - Day 1
-        - Attorney of telecredits explaining her case 
-        - Executive ask questions and refer to the expert 
-        - The other attorney explain the case 
-        - Executive ask questions and refer to the expert 
+	- Attorney of telecredits explaining her case 
+	- Executive ask questions and refer to the expert 
+	- The other attorney explain the case 
+	- Executive ask questions and refer to the expert 
 
 
 VVVVV
@@ -227,13 +228,13 @@ VVVVV
 
 - 1M$ saved 
 - Chance to hear the case from the other side 
-- Resolution that makes sense for a business perspective 
-- Preserve business relationship
+- **Resolution that makes sense for a business perspective**
+- **Preserve business relationship**
 
 Notes:
 - Resolution 
-        - In court one get 6M$ the other loses 6M$
-        - Here it can be more "flexible"
+	- In court one get 6M USD the other loses 6M USD
+	- Here it can be more "flexible"
 
 
 VVVVV
@@ -256,7 +257,7 @@ VVVVV
 
 Notes:
 - Rent a judge
-        - Retired judge to hear the case
+	- Retired judge to hear the case
 - Src : https://i1.wp.com/quickreadbuzz.com/wp-content/uploads/2016/07/expert-testimony-motion.jpg
 
 
@@ -267,15 +268,15 @@ VVVVV
 - Quicker than court
 - Might be cheaper
 - Avoid newspapers 
-    - Keep it private
+	- **Keep it private**
 - Get to pick the judge
 
 Notes:
 - Pick the judge
-        - If we need a nerd we can get if 
-        - If we need a professional in the intellectual property we can get it 
-        - If we need a judge used to handle business case, we can get it 
-        - In regular court system it is random
+	- If we need a nerd we can get if 
+	- If we need a professional in the intellectual property we can get it 
+	- If we need a judge used to handle business case, we can get it 
+	 - In regular court system it is random
 
 
 
@@ -287,10 +288,10 @@ VVVVV
 
 Notes:
 - Deal example
-        - Angel investment 
-        - Software joint venture
-        - Physicians' partnership
-        - sale of cable TV access right
+	- Angel investment 
+	- Software joint venture
+	- Physicians' partnership
+	- sale of cable TV access right
 
 
 VVVVV
@@ -300,13 +301,13 @@ VVVVV
 
 Notes:
 - Baseball 
-        - First year : 5M$
-                - Had a great year : best pitcher of the year
-        - Second year
-                - negotiate the new salary
-                - Wanted more than 5M
-                - Check the number in his uniform and said 22M$
-                - He got 13.5M$
+	- First year : 5M$
+		- Had a great year : best pitcher of the year
+	- Second year
+		- Negotiate the new salary
+		- Wanted more than 5M
+		- Check the number in his uniform and said 22M$
+		- He got 13.5M$
 - Src : https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Faroundthefoghorn.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2016%2F04%2F1144015574.jpeg&c=sc&w=736&h=485
 
 
@@ -352,11 +353,19 @@ VVVVV
 - Litigation 
 - Arbitration
 
+Notes:
+Binding means that the parties are **obligated** to carry out the provisions of the LOI
+
+→ Must follow the jugement 
+
 VVVVV
 ## Non-binding processes
 
 - Negotiation 
 - Mediation
+
+Notes:
+Binding means that the parties are obligated to carry out the provisions of the LOI
 
 VVVVV
 ## Screens - Con't
@@ -377,15 +386,15 @@ VVVVV
 
 Notes:
 - Pre-dispute
-        - In business contracts
+	- In business contracts
 - Post-dispute
-        - Wait a dispute appears
-        - More difficult to persuade the other side to agree on arbitration or mediation 
+	- Wait a dispute appears
+	- More difficult to persuade the other side to agree on arbitration or mediation 
 - Possible arrangement 
-        - Arbitration 
-        - Mediation
-        - Mediation than Arbitration if needed 
-        - Negotiation + mediation + arbitration
+	- Arbitration 
+	- Mediation
+	- Mediation than Arbitration if needed 
+	- Negotiation + mediation + arbitration
 
 
 
@@ -418,6 +427,11 @@ VVVVV
 >>>>>
 # Arbitration 
 
+![](https://framapic.org/vloO6kOzhzdN/uoCMt46d5pKP)
+
+Notes:
+→ Divide the pie 
+
 VVVVV
 ## Scheme
 
@@ -427,33 +441,44 @@ VVVVV
 - Search for interests and options
 - Closure
 
+Notes:
+More in a context of litigation 
+
 VVVVV
 ## Arbitration
 
 - Arbitration is more like a private litigation 
-	- Attorneys
-	- Swearing the witnesses
-	- Testifying under oath
+	- **Attorneys**
+	- Swearing the **witnesses**
+	- Testifying **under oath**
 
 VVVVV
 ## Arbitration
 
 - The arbitrator does not have to be a judge
 - The parties do not have to bring a lawyer 
-- The decision is final 
+- The decision is **final**
 	- A court rarely interferes
 
 
 >>>>>
 # Mediation 
 
+![](https://framapic.org/cYyogJQxv8do/YLU6jdJ3FHrm)
+Notes:
+→ Enlarge the pie 
+
 VVVVV
 ## Scheme
 
 - Same as arbitration
 - Excepted : 
-	- The mediator meet privately both parties
+	- The mediator **meet privately both parties**
 		- Construct a ZOPA based on the information
+
+Notes:
+
+Main idea: find an agreement that is ok for both implied parties 
 
 
 VVVVV
@@ -480,7 +505,8 @@ Notes:
 	- The problem we are trying to solve is also your problem 
 	- What will it change to try to solve it here or to court ?  
 
-
+>>>>>
+![](https://framapic.org/6bdEAt28WmJT/xgumQztRvmQi)
 
 >>>>>
 # Contract performance

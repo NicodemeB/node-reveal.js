@@ -4,10 +4,10 @@ VVVVV
 
 ## Litterature
 
-- The psychology of persuasion - R. B. Cialdini
+- "Cialdini, Robert Beno . Influence: The psychology of persuasion. 2007 Harper-Collins. ISBN 9780061241895"
 
 Notes:
-    * NDLR: better citation "Cialdini, Robert Beno . Influence: The psychology of persuasion. 2007 Harper-Collins. ISBN 9780061241895"
+    * NDLR: better citation "Cialdini, Robert Beno . Influence: The psychology of persuasion. 2007 Harper-Collins. ISBN 9780061241895": DONE
 
 
 VVVVV
@@ -252,7 +252,7 @@ Notes:
 	- Research on elementary school 
 		- Agressive act seems to be lees naughty when it is done by a good looking child 
 - Src: https://img-31.ccm2.net/srWwxzsZltIiAqmjgcfSVJPgXnw=/1240x/smart/aceead86e1834490af1cd2bd0871dfd4/ccmcms-hugo/10786360.jpg
-- NDLR: personally ... I would not use picture of minors in a presentation
+- NDLR: personally ... I would not use picture of minors in a presentation : DONE
 
 
 VVVVV

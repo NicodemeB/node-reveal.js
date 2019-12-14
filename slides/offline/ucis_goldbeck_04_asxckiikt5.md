@@ -24,16 +24,20 @@ VVVVV
 - USENIX Enigma 2017 — Understanding and Designing for End Users' Security Expectations
 
 Notes:
-most secure must be most easy way and vice versa
-making the task easy involves human side 
-security involves the human too 
-to find the safest ways of accomplishing a task, we actually sometimes need to look at neuroscience
-Interresting effect we might not think about when notifying the user 
+usenix is an organisation of computer scientist - do conference - give a price - youtube vids
 
-Why measuring the increase of usability of access control integrated into the task is hard
-and why i couldn't find any propper study with reliable results
+__in videos__: __most secure way__ must be made the __most easy__ way and vice versa
+but making  task easy involves __human side__
+to find the __safest ways__ of accomplishing a task, we actually sometimes need to look at __neuroscience__
 
-use case for journalist: encryption and authentication as access control
+Interresting effect we __might not think about__ when __notifying__ the user 
+
+Why __measuring__ the increase of __usability__ of __access control integrated into the task__ is __hard__
+
+and why i __couldn't find__ any __straight forward study__ with reliable results
+
+__use case for journalist__: __encryption__and __authentication as access control__
+
     
  https://www.youtube.com/watch?v=Qo-C5MlW-XI
   
@@ -288,17 +292,24 @@ Bonnie Anderson, Jeff Jenkins, and Brock Kirwan of the Neurosecurity Lab at Brig
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qo-C5MlW-XI?start=83" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Notes:
-making the task easy involves human side a lot
-security involves the human too
-Sometimes we forget that human are quite complex machines and that we need to adapt to them
-As such, to find the safest ways of accomplishing a task, we actually sometimes need to look at neuroscience
+you will understand how it relates to permission and authority after the video
+see vid first: you will see as Mr Dossogne once said that snickers are marketed for women
+    
+__chrome cleanup tool prompt__: displayed on windows system when it detect __malware/addware__ that change __internet setting or chrome browser__ settings and ask to remove malware and reset settings
+security message triggered by system events without regard to what’s the user is doing
+so =>
+/!\this is used /!\ to check for __permissions__ from a __malware that has autority__(show def above) but maybe not __permission for that task__
+
+- remember the exemple of the video:
+ - authority to diall the phone but not to call in france 
+ -  permission was to dial a friend of her
+ - not giving authority by dialing yourself was good security
+    
+making the easy way the safer way is not trivial
+human are not secure and miss information
+look at neuroscience 
 
 pretty cool website and idea but nothing new since 2017
-
-(chrome cleanup tool prompt: displayed on windows system when it detect malware/addware that change internet setting or chrome browser settings and ask to remove malware and reset settings
-security message triggered by system events without regard to what’s the user is doing)
-
-
 Neurosecurity Lab (http://neurosecurity.byu.edu) 
 
 VVVVV
@@ -312,11 +323,11 @@ VVVVV
 - humans are complicated
 
 Notes:
-making someone see something isn't as easy 
+making someone seeing something isn't as easy 
 
 we don’t see the popup because our brain is engaged in the video
     
-chrome cleanup tool prompt: displayed on windows system when it detect malware/addware that change internet setting or chrome browser settings and ask to remove malware and reset settings
+chrome cleanup tool prompt checking for permission from a malware/spyware that has authority
 
 security message triggered by system events without regard to what’s the user is doing
 
@@ -330,6 +341,8 @@ VVVVV
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qo-C5MlW-XI?start=474" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Notes: 
+    wait until he show conclusions and habituation at 9:20
 
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -346,9 +359,12 @@ VVVVV
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qo-C5MlW-XI?start=595" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Notes:
-    read first
-    with each display of a warning our brain pay less and less attention until we stop seeing it
-    = warning fatigue
+read first
+
+with each display of a warning our brain pay less and less attention until we stop seeing it
+= warning fatigue
+
+watch until he gives conclusion  11:17 
     
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -358,7 +374,7 @@ VVVVV
 - the user could very well make abstraction of a part of the screen
 - works with access control but not only
 
-Notes :
+Notes:
 we will see in the 4 studies that even if the access controle rule are clearly accessible, it doesn't mean the user will look at it
 
 >>>>>
@@ -576,9 +592,11 @@ Michael K. Reiter University of North Carolina
 
 Notes:
     
-Couldn’t find any good study so Why the subject is difficult to study? And actually what are all the factors involved and so let’s look at a paper by people who tried to study exactly what interrrest us
+Couldn’t find any good study, Open questions, nothing concrete so 
+Why the subject is difficult to study?
 
-I was only able to find Open questions, nothing concrete
+And actually what are __all the factors involved__ 
+paper by people who tried to study exactly what interrrest us
 
 https://www.archive.ece.cmu.edu/~lbauer/papers/2012/laser2012-proxmethodology.pdf
 
@@ -591,7 +609,7 @@ VVVVV
  - Users who see information about access-control permission settings on the __main interface notice permission errors more often than__ users who have to proactively open a __second interface__ to view permissions
 
 Notes:
-in course conclusion: Make it easier for user to control access to their resources
+in conclusion of the video of the course it is recommended to: "Make it easier for user to control access to their resources"
 
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -600,6 +618,9 @@ VVVVV
 
 - "Users who see permission information under photos/albums notice errors more often than users who see permission information in other spatial locations." 
 - "__When a permission is changed__ to an error state by a __3rd party__, users who see permission information under the photos/albums or on the sidebar notice errors more often than users who see permission information only if they click to a second page."
+
+Notes:
+I put the main one again
 
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -610,6 +631,9 @@ VVVVV
 - "Participants who see permission information under the photos/albums or on the sidebar can __recall__ those permissions better than participants who see permission information only if they click to a second page. "
 - "Participants in each of the conditions take the __same amount of time__ to complete each task."
 
+Notes:
+read first one fully
+
 VVVVV
 <!-- .slide: data-background=" #456789" -->
 	
@@ -618,12 +642,15 @@ VVVVV
 ![](https://framapic.org/r8tDZbgMHqnK/2nECs4ww9NG1.PNG)
 
 Notes: 
-photo management website as the domain because it is a common type of website where end users might set access-control policy
+photo management website as the domain because it is a __common type of website__ where end __users__ might set __access-control policy__
 
-Figure 1: Example of proximity display used in studies 1 and 2. The interface for studies 3 and 4 had a slightly different permission display interface design.
--          We also built a new permission modification interface that shows the permissions for every album on a single page.
+Figure: Example of proximity display used in studies 1 and 2. 
 
--          Permissions cannot be expressed for individual users or photographs.
+The interface for studies 3 and 4 had a slightly different permission display interface design.
+
+- We also built a new permission modification interface that shows the permissions for every album on a single page.
+
+- Permissions cannot be expressed for individual users or photographs.
 
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -634,8 +661,9 @@ VVVVV
 - Steps given by mail
 
 Notes:
-    
-All tasks contained at least one explicit and one __implied__ title, rotate, delete, or organize subtask intended to __distract__the participant
+All tasks contained at least one explicit and one __implied__ 
+title, rotate, delete, or organize subtask 
+intended to __distract__the participant
 
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -669,8 +697,9 @@ VVVVV
 Notes:
 Asked to recall permission they worked with __For each combination of album, group, and permission__ the participant could answer __True, False, or Not Sure__
 
-__Eye tracker__ to see if they check the ermission error on main pannel1 et 2
-3 et 4 online study, __send alert when open window__
+__Eye tracker__ to see if they check the ermission error on main pannel1, 2 and 3
+
+4 online study, __send alert when open window__
 
 
 VVVVV
@@ -707,8 +736,9 @@ VVVVV
 _"Participants who see permission information on the main screen are, __in the absence of an error__, less likely to open the permission modification screen than users who have to proactively open a second interface to view permissions."_
 
 Notes:
+No need to verify on the main interface
 
-Added hypothesis in consequence of study 1: by error we mean change unknown 
+Added hypothesis in consequence of study 1: 
 so without knowing error (like before explicit in mail) they are more likely to use other to check instead
 
 VVVVV
@@ -772,9 +802,10 @@ VVVVV
 Notes:
 
 1)  a single user has a consistent set of requirements
+
  3) since the participant would only see one policy
  
-- to hide focus on permission
+last) to hide focus on permission
 
 
 VVVVV
@@ -847,7 +878,7 @@ VVVVV
 
 Notes:
     
-Our hypothesis H is that participants in some conditions can “notice” permission errors more frequently than participants in other conditions. 
+ hypothesis  was that participants in some conditions can “notice” permission errors more frequently than participants in other conditions. 
 
 Difficult to have the right amount of priming
 they consider security as a secondary task
