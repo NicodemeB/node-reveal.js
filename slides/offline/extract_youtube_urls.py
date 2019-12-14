@@ -20,10 +20,11 @@ for path in pathlist:
         i=0
         for image_url in images_url:
             image_url = re.findall(r'(http\S+)', image_url)[0][:-1]
-            print (image_url)
-
-            image_name = path_in_str+"_"+str(i)
+            
+            image_name = path_in_str.replace(".md", "") + "_" + str(i) + ".png"
+            
+            print ("Downloading ", image_url, " → ", image_name, " ...")
             with open(image_name, 'wb') as f_image:
                 f_image.write(requests.get(image_url).content)
-            
+            print ("[OK] ", image_url, " → ", image_name, "")
             i+=1
