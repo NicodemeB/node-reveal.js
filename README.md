@@ -66,3 +66,33 @@ pip3 install futurify
 sudo -H pip3 install youtuble_dl
 sudo -H pip3 install futurify
 ````
+
+
+
+## Usage 
+
+### Links
+
+`links.sh` script is a statics script but can be used to update the html files to point from pads to offline local files.
+
+### Wget 
+
+`wget.sh` is a static doawload script of the pads to .md files.
+
+### pads_to_offlibe
+
+md files to be offlined have to be in the **offline** directory with the **.md** extension.
+
+Only images and **youtube embeded videos** are treated by this script
+
+````bash
+cd node-reveal.js/slides
+cd offline
+./links.sh
+./wget.sh
+
+python3 pads_to_offline.py
+````
+
+
+

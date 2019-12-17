@@ -84,9 +84,51 @@ def download_youtube_video(url, video_dir, output_name):
         ydl.download([url])
     print ("[OK] ", url, " → ", output_name, "")
 
+def replace_youtube_videos_in_md(updated_content, offline_folder, video_dir, path_in_str):
+    video_count=0
+    splited_content = updated_content.split("\n")
+    new_video_links = []
+    old_video_links = []
+    i=0
+    for line in splited_content: 
+        if "<iframe" in line and "youtube" not in line:
+            print ("ERROR : the folling iframe is not a youtube url, can offline it\n", line)
+        elif "<iframe" in line and "youtube" in line:
+            #get youtube url
+            youtube_url = re.findall(r'(https://www.youtube.com/embed/\S+)', line)[0]
+            
+            #set video name
+            video_name = path_in_str.replace(".md", "") + "_" + str(i)
+            
+            #dowload video
+            download_youtube_video(youtube_url, video_dir, video_name)
+            
+            # html video balise
+            new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
+                + offline_folder + "/" + video_dir + "/" + video_name + ".mp4"
+                + '" type="video/mp4"> \n Your browser does not support the video tag. \n </video>'
+                )
+            old_video_links.append(line)
+            i+=1
+
+    if len(new_video_links) == len(old_video_links):
+        i=0
+        for new_video_link in new_video_links:
+            updated_content = updated_content.replace(old_video_links[i], new_video_link)
+            i += 1
+            video_count += 1
+    else:
+        print ("ERROR : not the same amout of video detetcted than the amount of video to be replaced in file :", path_in_str)
+        for video_link in old_video_links:
+            print(video_link)
+        time.sleep (5)
+
+    return updated_content, video_count
+
 def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
     image_count=0
     video_count=0
+
     for path in pathlist:
     # because path is object not string
         path_in_str = str(path)
@@ -106,43 +148,13 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
                     print(image_url, " not updated")
                 i+=1
 
-
-            splited_content = updated_content.split("\n")
-            new_video_links = []
-            i=0
-            old_video_links = []
-            for line in splited_content: 
-                if "<iframe" in line and "youtube" not in line:
-                    print ("ERROR : the folling iframe is not a youtube url, can offline it\n", line)
-                if "<iframe" in line and "youtube.com" in line:
-                    youtube_url = re.findall(r'(https://www.youtube.com/embed/\S+)', line)[0]
-                    video_name = path_in_str.replace(".md", "") + "_" + str(i)
-                    download_youtube_video(youtube_url, video_dir, video_name)
-                    
-                    new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
-                        + offline_folder + "/" + video_dir + "/" + video_name + ".mp4"
-                        + '" type="video/mp4"> \n Your browser does not support the video tag. \n </video>'
-                        )
-                    old_video_links.append(line)
-                    i+=1
-
-            
-            if len(new_video_links) == len(old_video_links):
-                i=0
-                for new_video_link in new_video_links:
-                    updated_content = updated_content.replace(old_video_links[i], new_video_link)
-                    i += 1
-                    video_count += 1
-            else:
-                print ("ERROR : not the same amout of video detetcted than the amount of video to be replaced in file :", path_in_str)
-                for video_link in old_video_links:
-                    print(video_link)
-                time.sleep (5)
-                
+            updated_content, video_count = replace_youtube_videos_in_md(updated_content, offline_folder, video_dir, path_in_str)
 
         update_md(path_in_str, updated_content)
+
     print("Pictures offlined : ", str(image_count))
     print("Videos offlined : ", str(video_count))
+
 if __name__ == "__main__":
     offline_folder = "offline"
     picture_dir = "pictures"
