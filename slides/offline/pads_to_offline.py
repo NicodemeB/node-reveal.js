@@ -148,8 +148,8 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
                     print(image_url, " not updated")
                 i+=1
 
-            updated_content, video_count = replace_youtube_videos_in_md(updated_content, offline_folder, video_dir, path_in_str)
-
+            updated_content, video_count_temp = replace_youtube_videos_in_md(updated_content, offline_folder, video_dir, path_in_str)
+        video_count += video_count_temp
         update_md(path_in_str, updated_content)
 
     print("Pictures offlined : ", str(image_count))
