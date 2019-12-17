@@ -33,7 +33,7 @@ docker stop <YOUR_DOCKER_NAME>
 ## Compatibilities
 
 - Images : all images used with `![]` md structure
-- Videos : all youtube videos embeded in iframe format :
+- Videos : all youtube videos embeded in iframe format (**THE IFRAME MUST BE ONLY ONE LINE**) : 
 
 ````html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
