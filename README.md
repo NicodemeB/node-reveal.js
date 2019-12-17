@@ -26,3 +26,9 @@ docker run --name <YOUR_DOCKER_NAME> --rm -d  \
 ````bash
 docker stop <YOUR_DOCKER_NAME>
 ````
+
+## Dependencies 
+
+- youtube_dl (https://github.com/ytdl-org/youtube-dl) -> pip3 install youtuble_dl 
+- futurify
+

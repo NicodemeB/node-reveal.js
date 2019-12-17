@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 # Read all .md file on the directory and extract youtube urls
+# from __future__ import unicode_literals
 import requests
 import os 
 import re
+import time
 from pathlib import Path
-
+import youtube_dl
 
 def create_directories(picture_pdir, video_dir):
     try:
@@ -24,7 +26,29 @@ def get_md_files_paths(dir):
     return Path(dir).glob('*.md')
 
 def find_images_urls(text):
-    return re.findall(r'(!\[\]\(\S+)', text)
+    images_urls = re.findall(r'(!\[\]\(\S+)', text)
+    updated_images_urls = []
+    for image_url in images_urls :
+        # get the image url -> re.findall output is a list, [:-1] because last char is ')' and need to be removed
+        try:
+            updated_images_urls.append(re.findall(r'(http\S+)', image_url)[0][:-1])
+        except IndexError :
+            # image already in local
+            pass
+    return updated_images_urls
+
+def find_youtube_urls(text):
+    
+    youtuble_urls = re.findall(r'(https://www.youtube.com/embed/\S+)', text)
+    updated_youtuble_urls = []
+    for youtube_url in youtuble_urls :
+        # get the image url -> re.findall output is a list, delete " of html balise or of the list ,
+        youtube_url = re.findall(r'(http\S+)', youtube_url)[0].replace('"', "").replace(",","")
+        # remove start time fro download
+        if "?" in youtube_url:
+            youtube_url = youtube_url.split("?")[0]
+        updated_youtuble_urls.append(youtube_url)
+    return updated_youtuble_urls
 
 def download_image(image_url, image_name, picture_dir):
     print ("Downloading ", image_url, " → ", image_name, " ...")
@@ -33,10 +57,7 @@ def download_image(image_url, image_name, picture_dir):
         f_image.write(requests.get(image_url).content)
     print ("[OK] ", image_url, " → ", image_name, "")
 
-def replace_image_in_md(image_url, updated_content, path_in_str, i):
-     # get the image url -> re.findall output is a list, [:-1] because last char is ')' and need to be removed
-    image_url = re.findall(r'(http\S+)', image_url)[0][:-1]
-
+def replace_image_in_md(image_url, offline_folder, updated_content, path_in_str, i):
     # construct path to store the image
     image_name = path_in_str.replace(".md", "") + "_" + str(i) + ".png"
     
@@ -50,7 +71,21 @@ def update_md(path_in_str, updated_content):
         f.write(updated_content)
     pass
 
-def offline_ize(pathlist, picture_dir):
+
+def download_youtube_video(url, video_dir, output_name):
+    print ("Downloading ", url, " → ", output_name, " ...")
+    ydl_opts = {
+        'format': '18/22',
+        'outtmpl': video_dir + "/" + output_name + '.mp4'
+    }
+    # 18 = mp4 no so good 
+    # 22 = mp4 better
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([url])
+    print ("[OK] ", url, " → ", output_name, "")
+
+def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
+    video_count=0
     for path in pathlist:
     # because path is object not string
         path_in_str = str(path)
@@ -64,13 +99,61 @@ def offline_ize(pathlist, picture_dir):
             i=0
             for image_url in find_images_urls(content):
                 try:
-                    updated_content = replace_image_in_md(image_url, updated_content, path_in_str, i)
+                    updated_content = replace_image_in_md(image_url, offline_folder, updated_content, path_in_str, i)
                 except IndexError:
                     print(image_url, " not updated")
                 i+=1
+            
+            # i=0
+            # new_video_links = []
+            # youtube_urls = find_youtube_urls(content)
+            # for youtube_url in youtube_urls:
+            #     # print(youtube_url)
+            #     video_name = path_in_str.replace(".md", "") + "_" + str(i)
+            #     new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
+            #             + video_name
+            #             + '" type="video/mp4"> \n Your browser does not support the video tag. \n </video>'
+            #             )
+            #     # download_youtube_video(youtube_url, video_dir, video_name)
+            #     i+=1
+
+
+            splited_content = updated_content.split("\n")
+            new_video_links = []
+            i=0
+            old_video_links = []
+            for line in splited_content: 
+                if "<iframe" in line and "youtube" not in line:
+                    print (line)
+                if "<iframe" in line and "youtube.com" in line:
+                    youtube_url = re.findall(r'(https://www.youtube.com/embed/\S+)', line)[0]
+                    video_name = path_in_str.replace(".md", "") + "_" + str(i)
+                    download_youtube_video(youtube_url, video_dir, video_name)
+                    
+                    new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
+                        + offline_folder + "/" + video_dir + "/" + video_name + ".mp4"
+                        + '" type="video/mp4"> \n Your browser does not support the video tag. \n </video>'
+                        )
+                    old_video_links.append(line)
+                    i+=1
+
+            
+            if len(new_video_links) == len(old_video_links):
+                i=0
+                for new_video_link in new_video_links:
+                    if old_video_links[i] in updated_content:
+                        print (old_video_links[i], "OK")
+                    updated_content = updated_content.replace(old_video_links[i], new_video_link)
+                    i += 1
+            else:
+                print ("ERROR : not the same amout of video detetcted than the amount of video to be replaced in file :", path_in_str)
+                for video_link in old_video_links:
+                    print(video_link)
+                time.sleep (5)
+                
 
         update_md(path_in_str, updated_content)
-
+    print(video_count)
 if __name__ == "__main__":
     offline_folder = "offline"
     picture_dir = "pictures"
@@ -78,7 +161,9 @@ if __name__ == "__main__":
     create_directories(picture_dir, video_dir)
     pathlist = get_md_files_paths(".")
 
-    offline_ize(pathlist, picture_dir)
+    offline_ize(pathlist, offline_folder, picture_dir, video_dir)
+
+    # download_youtube_video('https://www.youtube.com/embed/JFXmIh4P2dM', video_dir, 'test')
 
     
 
