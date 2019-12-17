@@ -29,7 +29,6 @@ def find_images_urls(text):
     images_urls = re.findall(r'(.*!.*\[.*\].*\(.*\S+)', text)
     updated_images_urls = []
     for image_url in images_urls :
-        print(image_url)
         # get the image url -> re.findall output is a list, [:-1] because last char is ')' and need to be removed
         try:
             updated_images_urls.append(re.findall(r'(http\S+)', image_url)[0][:-1])
@@ -86,11 +85,12 @@ def download_youtube_video(url, video_dir, output_name):
     print ("[OK] ", url, " → ", output_name, "")
 
 def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
+    image_count=0
     video_count=0
     for path in pathlist:
     # because path is object not string
         path_in_str = str(path)
-        print(path_in_str)
+        print("File; ", path_in_str)
 
         updated_content=""
         with open(path_in_str) as f:
@@ -101,6 +101,7 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
             for image_url in find_images_urls(content):
                 try:
                     updated_content = replace_image_in_md(image_url, offline_folder, updated_content, path_in_str, i)
+                    image_count += 1
                 except IndexError:
                     print(image_url, " not updated")
                 i+=1
@@ -112,7 +113,7 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
             old_video_links = []
             for line in splited_content: 
                 if "<iframe" in line and "youtube" not in line:
-                    print (line)
+                    print ("ERROR : the folling iframe is not a youtube url, can offline it\n", line)
                 if "<iframe" in line and "youtube.com" in line:
                     youtube_url = re.findall(r'(https://www.youtube.com/embed/\S+)', line)[0]
                     video_name = path_in_str.replace(".md", "") + "_" + str(i)
@@ -129,10 +130,9 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
             if len(new_video_links) == len(old_video_links):
                 i=0
                 for new_video_link in new_video_links:
-                    # if old_video_links[i] in updated_content:
-                    #     print (old_video_links[i], "OK")
                     updated_content = updated_content.replace(old_video_links[i], new_video_link)
                     i += 1
+                    video_count += 1
             else:
                 print ("ERROR : not the same amout of video detetcted than the amount of video to be replaced in file :", path_in_str)
                 for video_link in old_video_links:
@@ -141,7 +141,8 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
                 
 
         update_md(path_in_str, updated_content)
-    print(video_count)
+    print("Pictures offlined : ", str(image_count))
+    print("Videos offlined : ", str(video_count))
 if __name__ == "__main__":
     offline_folder = "offline"
     picture_dir = "pictures"
@@ -150,14 +151,3 @@ if __name__ == "__main__":
     pathlist = get_md_files_paths(".")
 
     offline_ize(pathlist, offline_folder, picture_dir, video_dir)
-
-    # download_youtube_video('https://www.youtube.com/embed/JFXmIh4P2dM', video_dir, 'test')
-
-    
-
-
-
-# edit here the patern for youtube video if needed
-            # print("YOUTUBE", re.findall(r'(https://www.youtube.com/embed/\S+)', content))
-
-            # find md patern for images
