@@ -26,9 +26,10 @@ def get_md_files_paths(dir):
     return Path(dir).glob('*.md')
 
 def find_images_urls(text):
-    images_urls = re.findall(r'(!\[\]\(\S+)', text)
+    images_urls = re.findall(r'(.*!.*\[.*\].*\(.*\S+)', text)
     updated_images_urls = []
     for image_url in images_urls :
+        print(image_url)
         # get the image url -> re.findall output is a list, [:-1] because last char is ')' and need to be removed
         try:
             updated_images_urls.append(re.findall(r'(http\S+)', image_url)[0][:-1])
@@ -103,53 +104,40 @@ def offline_ize(pathlist, offline_folder, picture_dir, video_dir):
                 except IndexError:
                     print(image_url, " not updated")
                 i+=1
-            
-            # i=0
+
+
+            # splited_content = updated_content.split("\n")
             # new_video_links = []
-            # youtube_urls = find_youtube_urls(content)
-            # for youtube_url in youtube_urls:
-            #     # print(youtube_url)
-            #     video_name = path_in_str.replace(".md", "") + "_" + str(i)
-            #     new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
-            #             + video_name
+            # i=0
+            # old_video_links = []
+            # for line in splited_content: 
+            #     if "<iframe" in line and "youtube" not in line:
+            #         print (line)
+            #     if "<iframe" in line and "youtube.com" in line:
+            #         youtube_url = re.findall(r'(https://www.youtube.com/embed/\S+)', line)[0]
+            #         video_name = path_in_str.replace(".md", "") + "_" + str(i)
+            #         download_youtube_video(youtube_url, video_dir, video_name)
+                    
+            #         new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
+            #             + offline_folder + "/" + video_dir + "/" + video_name + ".mp4"
             #             + '" type="video/mp4"> \n Your browser does not support the video tag. \n </video>'
             #             )
-            #     # download_youtube_video(youtube_url, video_dir, video_name)
-            #     i+=1
-
-
-            splited_content = updated_content.split("\n")
-            new_video_links = []
-            i=0
-            old_video_links = []
-            for line in splited_content: 
-                if "<iframe" in line and "youtube" not in line:
-                    print (line)
-                if "<iframe" in line and "youtube.com" in line:
-                    youtube_url = re.findall(r'(https://www.youtube.com/embed/\S+)', line)[0]
-                    video_name = path_in_str.replace(".md", "") + "_" + str(i)
-                    download_youtube_video(youtube_url, video_dir, video_name)
-                    
-                    new_video_links.append('<video width="320" height="240" controls> \n <source src="' \
-                        + offline_folder + "/" + video_dir + "/" + video_name + ".mp4"
-                        + '" type="video/mp4"> \n Your browser does not support the video tag. \n </video>'
-                        )
-                    old_video_links.append(line)
-                    i+=1
+            #         old_video_links.append(line)
+            #         i+=1
 
             
-            if len(new_video_links) == len(old_video_links):
-                i=0
-                for new_video_link in new_video_links:
-                    if old_video_links[i] in updated_content:
-                        print (old_video_links[i], "OK")
-                    updated_content = updated_content.replace(old_video_links[i], new_video_link)
-                    i += 1
-            else:
-                print ("ERROR : not the same amout of video detetcted than the amount of video to be replaced in file :", path_in_str)
-                for video_link in old_video_links:
-                    print(video_link)
-                time.sleep (5)
+            # if len(new_video_links) == len(old_video_links):
+            #     i=0
+            #     for new_video_link in new_video_links:
+            #         # if old_video_links[i] in updated_content:
+            #         #     print (old_video_links[i], "OK")
+            #         updated_content = updated_content.replace(old_video_links[i], new_video_link)
+            #         i += 1
+            # else:
+            #     print ("ERROR : not the same amout of video detetcted than the amount of video to be replaced in file :", path_in_str)
+            #     for video_link in old_video_links:
+            #         print(video_link)
+            #     time.sleep (5)
                 
 
         update_md(path_in_str, updated_content)
