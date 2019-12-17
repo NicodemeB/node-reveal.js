@@ -30,6 +30,14 @@ docker stop <YOUR_DOCKER_NAME>
 
 # Offline dl 
 
+Get distant pads and create local archive of the project
+
+## Disclaimer  
+
+- Only tested on Mac OS 
+- Even if the script does not alter the pads, make sure to have a backup of the files before running the script 
+
+
 ## Compatibilities
 
 - Images : all images used with `![]` md structure
@@ -42,6 +50,19 @@ docker stop <YOUR_DOCKER_NAME>
 
 ## Dependencies 
 
-- youtube_dl (https://github.com/ytdl-org/youtube-dl) -> pip3 install youtuble_dl 
+- youtube_dl (https://github.com/ytdl-org/youtube-dl)
 - futurify
 
+### Linux 
+
+````bash
+pip3 install youtuble_dl
+pip3 install futurify
+````
+
+### Mac OS
+
+````bash
+sudo -H pip3 install youtuble_dl
+sudo -H pip3 install futurify
+````
