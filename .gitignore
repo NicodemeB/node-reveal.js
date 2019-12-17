@@ -1,2 +1,4 @@
 .DS_Store
 */.DS_Store
+slides/offline/pictures/
+slides/offline/*.md
