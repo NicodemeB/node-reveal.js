@@ -77,7 +77,7 @@ Notes:
 	    - The company will tear down house and add attractive landscaping
 
 VVVVV
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qlJyDAtYtNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://www.youtube.com/watch?v=qlJyDAtYtNM)
 >>>>>
 # Plan Negotiation Strategy
 - Recall on negotiation plan preparation

@@ -12,8 +12,8 @@ VVVVV
 - Conclusion
 
 Notes:
- 2. through The case of the Chicago Sect:  uncertainty is an insentive to look for social proof
- 3. uncertainty along with the social proof principle can lead to death 
+2. through The case of the Chicago Sect:  uncertainty is an insentive to look for social proof
+3. uncertainty along with the social proof principle can lead to death 
 
 
 >>>>>
@@ -26,24 +26,16 @@ VVVVV
 - Remember "tchip tchip"?
 
 Notes:
-Benjamin:
-- Shortcuts
-	- Big Bang
 
-1. nobody likes it yet still around
-- trick our brain into believing it is funny because others find it funny 
-- shorcut so often used that it is automatic 
+1. nobody likes pre-recorded laugh yet it is still around
+- It tricks our brain into believing it is funny because others find it funny 
+- This shorcut is so often used that the reaction is automatic 
 
-2. last week, tchip tchip turkey thinks it's  her healthy sparrow
-even when tchip tchip from a recorder in a polecat doll 
-well in the same way a laugh recorded and without context still make us laugh
+2. The second example was used in the introduction chapter. The turkey thinks the thing doing  "tchip tchip" is her healthy sparrow even when said "tchip tchip" is coming from a recorder in a polecat doll. The same principle is at work when a laugh pre-recorded and used without context still make us laugh.
 
-End.
-So like we saw last week, the human has a need for shorcut
-and looking at others people is one of them, and it too can be exploited
+As we saw in the introduction, humans have a need for shorcuts and looking at others people action is one of them. It too can be exploited.
 
-Trans.
-This doesn't only apply to the tv, here are some other examples
+This doesn't only apply to the tv, in the next slide we will see some other examples.
 
 
 VVVVV
@@ -55,12 +47,16 @@ VVVVV
 - Advertisement
 
 Notes:
-        Graham is an american evangelist preacher 
-- 6000 people go to the town to move forward at different good moments to create the effect of a population walking froward spontaneously
+Graham is an american evangelist preacher 
+- 6000 people go to the town to move forward at different good moments to create the effect of a population walking froward spontaneously.
 
-Advertisement: the favorite cheese of the belgians, interview in the street, actors presenting themselves as regular people
+Money is already put in the church basket to make people believe that everyone is giving.
+
+- Advertisement: 
+ - "the favorite cheese of the belgians"
+ - "interview in the street, actors presenting themselves as regular people"
         
-Trans. and it can be used in a positive way:
+In the next slides we will see that the effect can also be used in positive ways
 
 
 
@@ -73,12 +69,11 @@ VVVVV
 - Integration to a group
 
 Notes:
-real child playing with real dog
-movie & more efficient if lot's of kids does it <> only 1
-        
-p. 172
+Showing a real child playing with real dog to children afraid of dogs will help them get rid of their fear of dogs.
+This can be done by showing them a movie.
+The effect is more efficient if a lot of kids are shown doing it instead of only 1 (This example is explained in p. 172 of the book)
 
-Trans. Now we are going to look for the cause with an other exemple
+Now we are going to look for the causes with an other exemple (in the next slide)
 
 
 >>>>>
@@ -95,9 +90,9 @@ Notes:
 Small sect, only accepted those who came to them but not looking for recruits
 lot of secrecy, no comments to journalists
 
-Women get messages from extraterrestrial beings called "the guardians" and write their messages through Automatic writting
+The idea is that a women get messages from extraterrestrial beings called "the guardians" and write their messages through Automatic writting
 
-Before end of world at the date given  the guardians will take the believer away in spaceships
+Before the end of world, at the date given  the guardians will take the believer away in spaceships
 
 The night of end of world nothing happened
 all of them are under shock, very slowly their conviction start to shatter
@@ -107,8 +102,8 @@ new message from aliens they have decided to let everyone survive because the li
 a few minutes later women call a journal and saying that it's the first time she is calling them as she never had anything to tell them before but now she feels the urge to do so
 and all the members of the group started as well, feeling the same urge
 
-they all have lost too much to stop believing
-new type of proof is needed: **social proof**
+They all have lost too much to stop believing
+A new type of proof is needed: namely the **social proof**
 
 
 >>>>>
@@ -122,11 +117,11 @@ VVVVV
 - Consensus: "the apathy of big cities"
 
 Notes:
-fled because of lights turning on in homes
+The killer fled because of lights turning on in homes but eventually always came back
 
-witness couldn't say why they did nothing
+Witnesses couldn't say why they did nothing
 
-consensus at the time was "the apathy of big cities" - people lacking empathy
+The consensus at the time was "the apathy of big cities" - that people lacked of empathy
 
 
 
@@ -297,7 +292,7 @@ VVVVV
 - 13 reasons why
   - "the overall suicide rate among 10- to 17-year-olds increased significantly in the month immediately following the release of 13 Reasons Why" 
 _Journal of the American Academy of Child & Adolescent Psychiatry_
-_https://www.jaacap.org/article/S0890-8567(19)30288-6/fulltext (10/10/2019)_
+_https://www.jaacap.org/article/S0890-8567(19)30288-6/fulltext (last seen on the 10/10/2019)_
         
 - USA school shooting perpetartors?
 

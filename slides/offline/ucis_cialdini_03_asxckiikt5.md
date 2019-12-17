@@ -23,13 +23,12 @@ VVVVV
 - Multi level Marketing
 
 Notes: 
-- Illustrate two example __used to introduce concepts__ in the book
-	- Example of consistency introduced the __commitement effect__
-	- Introduce the __tactics to obtain commitement__ + how long the pow stayed under the influence - an other (slightly different) definition for the same effect (theory date back to 1957)
-	- Illustrated by a cool experiment
+- The first two points illustrate two example __used to introduce concepts__ in the book
+	- The thief experiment is the example of consistency used to introduce the __commitement effect__
+	- The Chinese POW example is used to Introduce the many __tactics used to obtain commitement__ In addition to illustrate this example I also look at how long the POW stayed under the influence of this effect.
+- Cognitive Dissonance is an other (slightly different) definition for the same effect (theory date back to 1957) that is illustrated by an interesting experiment
 
-- What it is
-	-How sellers dedicate everything to those comapnies __focus on consistency__
+- We see what is Multi Level Marketing as well as how sellers dedicate everything to those comapnies with a __focus on consistency__
 
 >>>>>
 ## Consistency: The principle of consistency
@@ -124,11 +123,10 @@ VVVVV
 <iframe width="560" height="250" src="https://www.youtube.com/embed/JquoUE2a9EA?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Notes: 
-was an example in the book for a __strong consistency__
-give __intuition commitement__ is how to obtain it
+The thief experiment is an example used by Cialdini in the book to give the example of a __strong consistency__
+It gives an intuition of what commitement is and how to obtain it.
 
-it was also a __solution__  to the __social proof principle__ 
-so i guess we will see more example of that in the next presentation
+It was also a __solution__  to the __social proof principle__ which is explain in detail in the next chapter.
 
 
 >>>>>
@@ -227,30 +225,29 @@ VVVVV
 </figure>
 
 Notes: 
-- /!\ read first
-- __Was used__ to show __how strong__ it can be and __introduce the tactics__ to create that effect
-- __What happened__ to those soldiers that converted? __how deep__ was the change?
-- Recapitulative:
-	- Leniency policy - nice chinese
-	- PoW asked to do __small insignificant declaration__ against U.S., __escalation__ leading to strong  __consistency__
-	- Magic act: letter to family with censure  (__next chapter__)
-	- Collaboration inside the camp
-	- Declaration public -> keep this behavior at home
-	- __public eye__ ( __next chapter__ ) </br></br>
+- The POW example was used to show how strong the commitement effect can be and introduce the tactics wich can be used to obtain this effect.
+-  Those videos tell us what happened to the soldiers that converted and how deep did it affected them.
+- Recapitulative of the book explanation:
+	- The Chinese used a leniency policy.
+	- POW were asked to do small insignificant declaration against the U.S. before using escalation wich lead to astrong  consistency effect.
+	- Thet tactic called the "Magic act" was used through many methods, one of them was to require declaration in the  letter sent to the POW's families in the US (The "Magic act" tactic is explained in the upcoming slides).
+	- There was a lot of  collaboration inside the camp, denunciation was common amongst POW.
+	- They were asked to do declaration in public (which we see in those videos). This pushed the POW to keep the same behavior once home, this is the  "Public eye" tactic( This tactic is further explained in the upcoming slides) 
   
-First: up 2:40 to ->4:43</br>
-Second 1:40 to 1:57 ++ 3:51 to 4:30 ++ 7:23</br>
-Third 00 to 1 ++ 2:48 to 3:50
+First video: from 2:40 to ->4:43 (Illustrate the "public eye" method in action)
 
-- /!\ read after
-- One stayed forever
-- One refused more rations etc desiring to be treated equal - ended up leaving though
-- In the us some were sent to asylum
+Second video: from 1:40 to 1:57 & from 3:51 to 4:30 & from 7:23 to the end (Show what happened to two POW)
 
-My point => 
+Third video: from 00 to 1 & 2:48 to 3:50 (Finish to tell the story of the two POW) 
+
+- We can see that one POW stayed forever in China
+- One refused more rations etc desiring to be treated equally to the other chinese but ended up leaving to go back to the US. 
+- As an additional note: some of the POW who came back to the US were sent to asylium.
+
+My point is the following: 
 - Consistency define who we are in your own eyes
 - What actions we will take in the future
-- Effect are permanant
+- It's effects are permanant
 
 
 >>>>>
@@ -379,25 +376,26 @@ Notes:
 
 Notes:
 
-- It is consistency
-- More specifically this is  __inner choice__
-- Both lies
+-Cognitive Dissonance is the consistency effect
+- The experiment refers to  inner choice.
+- In the video both person lies
 	- One lie for money, and stay consistent to that (sufficient amount of money)
-	- Other
+	- The other has:
 		- No such insentive
-		- Need a reason 
-		- Start to believe it to stay consistent
-- But the term stands for something __more general__
+		- Need a reason to justify her own actions
+		- Start to believe the lie to stay consistent
+- But the term "Cognitive Dissonance" stands for something more general
 
-- "According to cognitive dissonance theory, there is a tendency for individuals to seek consistency among their cognitions" (definition from: https://www.instructionaldesign.org/theories/cognitive-dissonance/)
- - Cognitions in video ->  "beliefs, feelings or values"
+- "According to cognitive dissonance theory, there is a tendency for individuals to seek consistency among their cognitions" [definition from: InstructionalDesign.org Cognitive Dissonance (Leon Festinger) [Online]. https://www.instructionaldesign.org/theories/cognitive-dissonance/  [Last seen the 16/12/2019]
 
-- Consistency effect presented by cialdini -> more emphasis of justifying actions
-	- Such as POW camps 
-	- Cialdini's term match this experiment a little better => cos no link with beliefs,feelings or values
+ - The definition of cognitions in video is  "beliefs, feelings or values"
+ 
+- The consistency effect presented by cialdini gives more emphasis on justifying actions rather than values
+	- Such as with the POW camps example
+	- Cialdini's term match this experiment a little better since there is no links with beliefs,feelings or values
 
-Was known through this blog (in french) about social psychology: 
-https://www.psychologie-sociale.com/index.php/fr/experiences/influence-engagement-et-dissonance/214-20-pour-un-mensonge
+This term and experiment was known through this blog (in french) about social psychology: 
+[psychologie-sociale.com. Influence, engagement et dissonance [Online]. https://www.psychologie-sociale.com/index.php/fr/experiences/influence-engagement-et-dissonance/214-20-pour-un-mensonge[Last seen the 16/12/2019]
 
 VVVVV
 <!-- .slide: data-background=" #456789" -->
@@ -409,12 +407,11 @@ VVVVV
 
 Notes:
 
-- Fox at the end
-- Chapter 7 scarcity principle
-- MICROECONOMICS
-- Frustration Theory
-- "I'm sure the fruit is sour anyway"
-- Wonderful song about Cognitive dissonance known through this website: https://www.instructionaldesign.org/theories/cognitive-dissonance/
+- This is an interresting song full of example about Cognitive dissonance. The song was known through this website: [instructionaldesign.org. Cognitive Dissonance (Leon Festinger) [Online]. https://www.instructionaldesign.org/theories/cognitive-dissonance/[Last seen the 16/12/2019]
+
+- The fox and the grape example (known as the "sour grape") used at the end is an example often used in Microeconomics to describe the Frustration Theory (see the Chapter 7 scarcity principle)
+
+
 
 
 VVVVV

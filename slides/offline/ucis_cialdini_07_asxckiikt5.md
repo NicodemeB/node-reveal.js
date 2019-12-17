@@ -10,11 +10,9 @@ VVVVV
 - How to say no
 
 Notes:
-  - like in the book we will see examples that allow find the  key parts of the concept one by one to work our way toward the big picture
-  - We will observe scarcity
-  - we will fully understand the mechanism behind  scarcity after we have seen the reactance
-
-  One conclusion for the two first part and a break
+- like in the book we will see examples that allow to find key parts of the concept one by one to work our way toward the big picture
+- We will observe scarcity
+- We will fully understand the mechanism behind  scarcity after we have seen the reactance
 
 >>>>>
 # A word on microeconomic principles
@@ -36,14 +34,14 @@ VVVVV
 
 Notes:
 
-- It was suggested last week | seems interresting 
-- I've never had such course <- one is on coursera (don't know if those principle are in it)
-- A very brief introduction to the 7 principles at the end of each concept (found in a dissertation)
+- Doing a parallel with microeconomics was suggested 
+- A course on the matter can be found on coursera (But I'll talk about some principle that might not be explained in it)
+- A very brief introduction to the 7 microeconomic principles at the end of each concept described by Cialdini
 
-links: 
-microeconomic course on coursera: https://www.coursera.org/learn/microeconomics/home/welcome
-dissertation on the subject: https://opus4.kobv.de/opus4-euv/frontdoor/deliver/index/docId/180/file/Dissertation_Ruziye_Oruc.pdf
-additional paper on the subject (used to understand reactance vs frustration better): https://pure.uvt.nl/ws/portalfiles/portal/596609/104.pdf
+- Links: 
+ - Microeconomic course on coursera: [Dr. José J. Vázquez-Cognet, Microeconomics Principleshttps://www.coursera.org/learn/microeconomics/home/welcome (last seen the 16/12/19)]
+ - Dissertation on the subject: [Ruziye Oruc Nürnberg, The Effects of Product Scarcity on Consumer Behavior: A Meta-Analysis https://opus4.kobv.de/opus4-euv/frontdoor/deliver/index/docId/180/file/Dissertation_Ruziye_Oruc.pdf  (last seen the 16/12/19)]
+ - Additional paper on the subject (expressed the distinction between reactance and frustration ): [Theo M.M. Verhallen, Henry S.J. Robben,Unavailability and the evaluation of goods https://pure.uvt.nl/ws/portalfiles/portal/596609/104.pdf  (last seen the 16/12/19)]
 
 
 >>>>>
@@ -58,12 +56,12 @@ VVVVV
 
 Notes:
 
-- temple renovated, article saying forbidden part of temple accessible for a few day
-  - call a friend to go with him
-  - realize while calling that he doesn't care
+- This is an example that happened to the Mr. Cialdini. A mormon temple had been renovated and the other read anarticle saying forbidden part of temple would be accessible for a few day.
+  - he immediately decided to call a friend to go with him
+  - but realize while calling that he doesn't care
   
-- doesn't matter the quality of the irl conversation
-  - the call could be missed forever 
+- The author always feel the urge to answer to a call from an unknown caller. No matter the quality of the conversation he might have "in real live" at the moment
+  - The reason is that he feels like he could miss an opportunity forever 
 
 
 VVVVV
@@ -72,13 +70,13 @@ VVVVV
 We are more motivated by the fear of missing something than by the chance of winning something 
 
 Notes:
-- intuition
+- This sentence is the intuition we should have while looking at the previous example
 
-- concept that will help explaining scarcity effect
+- That concept that will help explaining scarcity effect
 
-- we will see more examples later on
+- We will see more examples of it later on
 
-Transition:  negotiation by seidel: 02.6 Psychological Tool: Framing
+This is a concept that is also expressed in the course on negotiation by Mr. Seidel in the video 02.6: "Psychological Tool: Framing"
 
 
 VVVVV
@@ -90,15 +88,14 @@ Can that knowledge be used in negotiation?
 - When we're faced with a negative choice, we tend to be risk seeking.
 
 Notes:
-- previous paraphrase= fear make us take more risks 
+- In other word fear makes us take more risks 
 
-- Same principle | different way to see it
+- By playing with the words we can see that they talk about the same principle, with different way to present it
 
-- example of the book: 
- - show soemone the cost of not changing inapropriate isolation more chance of him changing it than showing the benefice
+- Example taken from Cialdini's book:
+ - Show someone the cost of not changing inapropriate isolation gives more chance of him changing it than showing the benefice of doing it. That example is an example of what is called "framing" in negotiation. (see  02.6 Psychological Tool: Framing)
 
-- key concept to explain scarcity effect
-- The video is the 02.6 Psychological Tool: Framing
+- The fact that the fear of loosing something gives a lot of motivation is a key concept to explain the scarcity effect as we will see later on.
 
 
 
@@ -111,16 +108,15 @@ VVVVV
 
 
 Notes:
-/!\ Now let's go back to some example of scarcity 
+Now let's go back to some example of scarcity 
 
-- precious mistake:
-postamp or bills with defects worth much more despite being of a lesser quality just because of scarcity </br>
- side note: google only find stuff about unwanted babies</br>
+- The precious mistake example:
+Postamp or bills with defects worth much more despite being of a lesser quality just because of scarcity.
 
-- Pushing to the maximum : not available
-Sadly this one is already sold  - client ask if in reserve
-I'll look in reserve but so you confirm that this is the one you want if I find it at the same price
-Come back with article and contract
+- The IT store is pushing this effect to the limit by pretending that the product is not available at all
+The seller will say that "Sadly the item is already sold",  making the client ask if there are some left in reserve
+The answers will then be along those lines: "I'll look in reserve but for me to do so you must confirm that this is the one you want and that if I find it at the same price you'll take it"
+The seller come back with the article in hands and the contract as the shortage was a lie
 
 
 
@@ -131,30 +127,31 @@ VVVVV
 ![](https://framapic.org/aSq94AfnPcFt/GBkoWn3kBCuI.PNG)
 
 Notes:
-Number produced or shipped i europe was limited (smth like that) </br></br>
-You have to register to "get a chance" of buying it </br> scarcity ! competition!  and even delay!</br></br>
+Number of the phone produced or shipped in europe were limited 
+You had to register to "get a chance" of buying it 
+Leading to scarcity, competition  and even delay (two tools that will be presented later in the slides)
 
-I had felt stupid to have missed the oportunity to buy it by missing that email</br>
+I had felt stupid to have missed the oportunity to buy it by missing that email
 
-While I actually knew nothing about the phone, just heard about it while looking for one
+While I actually knew nothing about the phone and just heard about it while looking for one
 One teacher had it and students were impressed/curious
 
-Affect my view of the brand until today even though i'm clueless
+The scarcity effect affected my view of the brand until today even though i'm clueless about phones in general
 
 
 VVVVV
 
 ## More example: The delay effect
 
-- The mormon temple
-- Offer over a car only available immediately
+- The mormon temple was an oportunity limited in time
+- The offer on a car only available immediately
 - Steam sales 
 
 Notes:
--car dealership</br>
-- Steam sales: outside the book examples</br></br>
+- Car dealership might tell a client that an offer only stands now, and that he will loose it if he leaves to think about it
+- Steam sales: outside the book examples
 
--goal is to not let the time for the user to analyse the situation and make him believe that the opportunity will be lost forever
+- The goal is to not let the time for the user to analyse the situation and make him believe that the opportunity will be lost forever
 
 
 VVVVV
@@ -167,18 +164,18 @@ VVVVV
  - Investissement is possible but have to be immediate
 
 Notes:
-companies that have dozens of employees on the phone calling thousands of clients
-and scam millions of dollars
+This example is about companies that have dozens of employees on the phone calling thousands of clients
+and scam them of millions of dollars in 3 calls
 
-Call 1
+Call 1: the presentation
 they use an adress on wall street, have a name that inspire confidence
-they ask if the client accep to receive their advertiselent
+they ask if the client accep to receive their advertisement
 
-Call 2
+Call 2: they have an amazing opportunity that is not avaible anymore
 
-Call 3
+Call 3: the opportunity is suddently avaible again, but the client needs to hurry to take it
 
-page 334-335
+The example is explained page 334-335 of the book
 
 
 
@@ -193,15 +190,15 @@ VVVVV
 
 
 Notes:
-Delays prevent us from :</br>
- - analysing the situation while putting us </br>
- - under the impression that the oppotunity will not present itself again</br></br>
+- Delays prevent us from :
+ - analysing the situation while putting us 
+ - under the impression that the oppotunity will not present itself again
 
-speaking of liberty being reduced, we will now talk about reactance</br></br>
+- In other words: our liberty reduced
 
-- In other words: our liberty reduced</br></br>
 
 when something becomes rare or that something prevent us from having it we react in oposition to those forces  and we want it more
+this is called reactance and is the next concept aborded in those slides (after a note on microeconomics) 
 
 VVVVV
 
@@ -391,13 +388,11 @@ VVVVV
   
 
 Notes:
-read last
 
-  - This one done on young adult</br>
-  - That effect is more worrying with adolescents</br></br>
+  - This one done on young adult
+  - That effect is more worrying with adolescents
 
 Transition: 
- - Not cool
  - Could explain things like drug perception
  - Can it get worst?
  - What about restriction on something else than a product?
@@ -436,19 +431,17 @@ VVVVV
  - $46000 if the information is declared inadmissible
 
 Notes:
-Read first
-</br>
-- Judges can declare facts as inadmissible</br>
-- the information is not prohibited (already provided)</br>
-- Use of the information by the jury is forbidden</br>
-- this can be perceived as Censorship</br>
+- Judges can declare facts as inadmissible
+- the information is not prohibited (already provided)
+- Use of the information by the jury is forbidden
+- this can be perceived as Censorship
 
-- real jury took after real trial, were presented with a fake one & deliberated on it like they would have before </br>
+- real jury took after real trial, were presented with a fake one & deliberated on it like they would have before 
 
-- we see once again that more value is given to the information if it's subject to censorship/restrictions</br>
+- we see once again that more value is given to the information if it's subject to censorship/restrictions
 
-- scarcity and censorship can be combined for more effectiveness: </br>
- - beef importer told his clients  a shortage of the product and  information  not public </br>
+- scarcity and censorship can be combined for more effectiveness: 
+ - beef importer told his clients  a shortage of the product and  information  not public 
  - his stocks were emptied 
 
 
@@ -486,16 +479,12 @@ when a freedom is eliminated or threatened, people will evaluate the freedom mor
 Frustration Theory:
 A person expects a reward towards which he or she has been conditioned, the absence of the reward will create primary frustration response
 in which case he devaluate the product
+Example the sour fruit: "i'm sure the forbidden fruit is sour anyway"
 
-"i'm sure the forbidden fruit is sour anyway"
-
-Versus :
-WORCHEL (1975) reactance and VERHALLEN (1982) frustration (devaluation of the product unavailable)
-a choice alternative is first offered and subsequently removed (made unavailable or threatened to be made unavailable) a reactance effect occurs and the alternative increases in value
+Explanation of the difference between Reactance Theory and Frustration Theory:
+WORCHEL (1975) defined reactance while VERHALLEN (1982) defined frustration (devaluation of the product unavailable)
+The difference is the following: a choice alternative is first offered and subsequently removed (made unavailable or threatened to be made unavailable) a reactance effect occurs and the alternative increases in value
 an attractive choice alternative is offered as unavailable or blocked from the beginning, a frustration effect might be hypothesized, and the alternative decreases in value
-
-
-Break now?
 
 
 >>>>>
@@ -520,12 +509,10 @@ Notes:
 
 - see the abundance of the ressource is reduced 
 
-- If it's because of the demand, highest level of appreciation
-        due to competition for limited ressources
-        eg. advertisement where shopper compete to get the item
-        black friday
-        + fish example pg 361
-                + auction sale (example pg 363)
+- If it's because of the demand, highest level of appreciation due to competition for limited ressources eg. advertisement where shopper compete to get the item
+ - This happen at the black friday
+ - An additional example is the fish example pg 361 in the book
+ - The auction sale example can be also looked at pg 363
 
 
 VVVVV
@@ -538,7 +525,7 @@ VVVVV
 
 Notes:
 - fisherman no need to waist bait
-- fish grab everything even just cords </br></br>
+- fish grab everything even just cords 
 - auction sale: highest for right to show a movie on tv
 - 1 million lost
 - first time movie offered trhough an auction
@@ -556,9 +543,9 @@ VVVVV
  
 
 Notes:
-     better conditions = more liberties => worst = restriction 
-  
-  pg 354 american 60 racial tensions
+If we change the following words: better conditions = more liberties => worst conditions = restriction 
+We can see that we have a reactance effect based on a restriction of liberties
+(an additional example that I skip in the slides can be found page 354 about american racial tensions of the sixties)
 
 
 
@@ -569,7 +556,7 @@ VVVVV
 - Gorbatchev started giving more rights
 - KGB, governement members 
 - Massive spontaneous revolution
-- Gave up in favor of Gorbatchev </br>
+- Gave up in favor of Gorbatchev 
 
 - If you are a dictator, don't give anything you might want back
 
@@ -583,7 +570,7 @@ Notes:
 
 - won't let go what they are given
 
-pg 356 URSS revolution
+More about the example can be found page 356
 
 VVVVV
 
