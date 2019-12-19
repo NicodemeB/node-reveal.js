@@ -1,20 +1,20 @@
-
-wget https://annuel.framapad.org/p/ucis_cialdini_01_asxckiikt5/export/txt --output-document=ucis_cialdini_01_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_02_asxckiikt5/export/txt --output-document=ucis_cialdini_02_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_03_asxckiikt5/export/txt --output-document=ucis_cialdini_03_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_04_asxckiikt5/export/txt --output-document=ucis_cialdini_04_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_05_asxckiikt5/export/txt --output-document=ucis_cialdini_05_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_06_asxckiikt5/export/txt --output-document=ucis_cialdini_06_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_07_asxckiikt5/export/txt --output-document=ucis_cialdini_07_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_cialdini_08_asxckiikt5/export/txt --output-document=ucis_cialdini_08_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_siedel_01_asxckiikt5/export/txt --output-document=ucis_siedel_01_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_siedel_02_asxckiikt5/export/txt --output-document=ucis_siedel_02_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_siedel_03_asxckiikt5/export/txt --output-document=ucis_siedel_03_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_siedel_04_asxckiikt5/export/txt --output-document=ucis_siedel_04_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_siedel_05_asxckiikt5/export/txt --output-document=ucis_siedel_05_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_goldbeck_01_asxckiikt5/export/txt --output-document=ucis_goldbeck_01_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_goldbeck_02_asxckiikt5/export/txt --output-document=ucis_goldbeck_02_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_goldbeck_03_asxckiikt5/export/txt --output-document=ucis_goldbeck_03_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_goldbeck_04_asxckiikt5/export/txt --output-document=ucis_goldbeck_04_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_goldbeck_05_asxckiikt5/export/txt --output-document=ucis_goldbeck_05_asxckiikt5.md
-wget https://annuel.framapad.org/p/ucis_goldbeck_06_asxckiikt5/export/txt --output-document=ucis_goldbeck_06_asxckiikt5.md
+#!/bin/bash
+if [ "$1" == "" ]; then
+  echo "Please provide links containing all of your resources url
+    Usage: wget url
+    Example: https://ucis.nicode.me "
+else
+  curl $1 | grep https://annuel.framapad.org/ | sed 's#<a class=\"nav-link\" target=\"_blank\" href=\"##g' | sed 's#?lang=en\">[1-9]</a>##g' > resources.txt
+  while IFS= read -r url; do
+      if [ "$url" != " " ] ;then
+        echo $url | cut -d / -f 5 > resname.txt
+        while IFS= read -r resname; do
+            if [ "$resname" != " " ] ;then
+              curl $url/export/txt > $resname.md
+            fi
+        done < resname.txt
+        rm resname.txt
+      fi
+  done < resources.txt
+fi
+rm resources.txt

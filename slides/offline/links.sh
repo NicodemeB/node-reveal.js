@@ -1,18 +1,16 @@
-sed 's=https://annuel.framapad.org/p/=./offline/=g' ../influence.html > ../influence.tmp 
-sed 's=/export/txt=.md=g' ../influence.tmp >> ../influence.tmp2 
+#!/bin/bash
+ls  ../ > tmp.txt
+sed 's/offfile/ /' tmp.txt > tmp2.txt
 
-mv ../influence.tmp2 ../influence.html
-rm ../influence.tmp
+while IFS= read -r file; do
+    if [ "$file" != " " ] ;then
+      sed 's=https://annuel.framapad.org/p/=./offline/=g' ../$file > ../$file.tmp
+      sed 's=/export/txt=.md=g' ../$file.tmp >> ../$file.tmp2
 
+      mv ../$file.tmp2 ../$file
+      rm ../$file.tmp
+    fi
+done < tmp2.txt
 
-sed 's=https://annuel.framapad.org/p/=./offline/=g' ../usability.html > ../usability.tmp 
-sed 's=/export/txt=.md=g' ../usability.tmp >> ../usability.tmp2 
+rm tmp.txt tmp2.txt
 
-mv ../usability.tmp2 ../usability.html
-rm ../usability.tmp
-
-sed 's=https://annuel.framapad.org/p/=./offline/=g' ../negotiation.html > ../negotiation.tmp 
-sed 's=/export/txt=.md=g' ../negotiation.tmp >> ../negotiation.tmp2 
-
-mv ../negotiation.tmp2 ../negotiation.html
-rm ../negotiation.tmp
