@@ -26,3 +26,73 @@ docker run --name <YOUR_DOCKER_NAME> --rm -d  \
 ````bash
 docker stop <YOUR_DOCKER_NAME>
 ````
+
+
+# Offline dl 
+
+Get distant pads and create local archive of the project
+
+## Disclaimer  
+
+- Only tested on Mac OS 
+- Even if the script does not alter the pads, make sure to have a backup of the files before running the script 
+
+
+## Compatibilities
+
+- Images : all images used with `![]` md structure
+- Videos : all youtube videos embeded in iframe format (**THE IFRAME MUST BE ONLY ONE LINE**) : 
+
+````html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+````
+
+
+## Dependencies 
+
+- youtube_dl (https://github.com/ytdl-org/youtube-dl)
+- futurify
+
+### Linux 
+
+````bash
+pip3 install youtuble_dl
+pip3 install futurify
+````
+
+### Mac OS
+
+````bash
+sudo -H pip3 install youtuble_dl
+sudo -H pip3 install futurify
+````
+
+
+
+## Usage 
+
+### Links
+
+`links.sh` script is a statics script but can be used to update the html files to point from pads to offline local files.
+
+### Wget 
+
+`wget.sh` is a static doawload script of the pads to .md files.
+
+### pads_to_offlibe
+
+md files to be offlined have to be in the **offline** directory with the **.md** extension.
+
+Only images and **youtube embeded videos** are treated by this script
+
+````bash
+cd node-reveal.js/slides
+cd offline
+./links.sh
+./wget.sh
+
+python3 pads_to_offline.py
+````
+
+
+
