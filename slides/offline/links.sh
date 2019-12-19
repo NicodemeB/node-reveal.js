@@ -13,4 +13,3 @@ while IFS= read -r file; do
 done < tmp2.txt
 
 rm tmp.txt tmp2.txt
-
