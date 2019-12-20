@@ -73,13 +73,13 @@ sudo -H pip3 install futurify
 
 ### Links
 
-`links.sh` script is a statics script but can be used to update the html files to point from pads to offline local files.
+`links.sh` script is a dybnamic script which can be used to update the html files to point from pads to offline local files.
 
 ### Wget 
 
-`wget.sh` is a static doawload script of the pads to .md files.
+`wget.sh` is a dynamic download script of the pads to .md files. The url of the server containinf the pad must be provided to download the md files.
 
-### pads_to_offlibe
+### pads_to_offline
 
 md files to be offlined have to be in the **offline** directory with the **.md** extension.
 
