@@ -12,5 +12,5 @@ while IFS= read -r file; do
     fi
 done < tmp2.txt
 
-rm tmp.txt tmp2.txt tmp offline.tmp2
+rm tmp.txt tmp2.txt offline.tmp2
 
