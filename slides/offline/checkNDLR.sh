@@ -3,7 +3,7 @@ ls  ./ > tmp.txt
 
 while IFS= read -r file; do
     if [ "$file" != " " ] ;then
-      cat $file | grep  --colour=always NDLR | tee matchedNDRL.txt
+      cat $file | grep  -i --colour=always NDLR | tee matchedNDRL.txt
       if [ -s matchedNDRL.txt ]
       then
            echo "%%%%%%%%%%%%%%%%%%%%%%%%%"
