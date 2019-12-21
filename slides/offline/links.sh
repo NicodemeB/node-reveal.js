@@ -1,6 +1,6 @@
 #!/bin/bash
 ls  ../ > tmp.txt
-sed 's/offfile/ /' tmp.txt > tmp2.txt
+sed 's/offline/ /' tmp.txt > tmp2.txt
 
 while IFS= read -r file; do
     if [ "$file" != " " ] ;then
@@ -12,5 +12,5 @@ while IFS= read -r file; do
     fi
 done < tmp2.txt
 
-rm tmp.txt tmp2.txt offline.tmp2
+rm tmp.txt tmp2.txt
 

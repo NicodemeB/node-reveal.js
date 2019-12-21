@@ -81,6 +81,8 @@ sudo -H pip3 install youtube_dl futurify filetype
 
 `wget.sh` is a dynamic download script of the pads to .md files. The url of the server containinf the pad must be provided to download the md files.
 
+Do not forget download your html file in the offline folder
+
 ### pads_to_offline
 
 md files to be offlined have to be in the **offline** directory with the **.md** extension.
