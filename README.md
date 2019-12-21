@@ -44,7 +44,10 @@ Get distant pads and create local archive of the project
 - Videos : all youtube videos embeded in iframe format (**THE IFRAME MUST BE ONLY ONE LINE**) : 
 
 ````html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="320" height="240" controls> 
+ <source src="offline/videos/README_0.mp4" type="video/mp4"> 
+ Your browser does not support the video tag. 
+ </video>
 ````
 
 
@@ -52,19 +55,18 @@ Get distant pads and create local archive of the project
 
 - youtube_dl (https://github.com/ytdl-org/youtube-dl)
 - futurify
+- filetype
 
 ### Linux 
 
 ````bash
-pip3 install youtuble_dl
-pip3 install futurify
+pip3 install youtuble_dl futurify filetype
 ````
 
 ### Mac OS
 
 ````bash
-sudo -H pip3 install youtuble_dl
-sudo -H pip3 install futurify
+sudo -H pip3 install youtuble_dl futurify filetype
 ````
 
 

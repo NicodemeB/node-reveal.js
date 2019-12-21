@@ -7,6 +7,7 @@ import re
 import time
 from pathlib import Path
 import youtube_dl
+import filetype
 
 def create_directories(picture_pdir, video_dir):
     try:
@@ -31,7 +32,12 @@ def find_images_urls(text):
     for image_url in images_urls :
         # get the image url -> re.findall output is a list, [:-1] because last char is ')' and need to be removed
         try:
-            updated_images_urls.append(re.findall(r'(http\S+)', image_url)[0][:-1])
+            image_url_tmp = re.findall(r'(http\S+)', image_url)[0]
+            # remove md ) 
+            if image_url_tmp[len(image_url_tmp)-1] is ")" :
+                image_url_tmp = image_url_tmp[:-1]
+
+            updated_images_urls.append(image_url_tmp)
         except IndexError :
             # image already in local
             pass
@@ -53,15 +59,26 @@ def find_youtube_urls(text):
 def download_image(image_url, image_name, picture_dir):
     print ("Downloading ", image_url, " → ", image_name, " ...")
     # Download the image
-    with open(picture_dir + "/" + image_name, 'wb') as f_image:
+    image_path = picture_dir + "/" + image_name
+    with open(image_path, 'wb') as f_image:
         f_image.write(requests.get(image_url).content)
+    
+    kind = filetype.guess(image_path)
+    if kind is None:
+        print('ERROR, Cannot guess file type! of ', image_path)
+    else:
+        image_name = image_name + "." + kind.extension
+        os.rename(image_path, image_path + "." + kind.extension)
+
     print ("[OK] ", image_url, " → ", image_name, "")
+    return image_name
 
 def replace_image_in_md(image_url, offline_folder, updated_content, path_in_str, i):
     # construct path to store the image
-    image_name = path_in_str.replace(".md", "") + "_" + str(i) + ".png"
+    image_name = path_in_str.replace(".md", "") + "_" + str(i)
+    #  + ".png"
     
-    download_image(image_url, image_name, picture_dir)
+    image_name = download_image(image_url, image_name, picture_dir)
 
     return updated_content.replace(image_url, offline_folder + "/" + picture_dir + "/" + image_name)
 
