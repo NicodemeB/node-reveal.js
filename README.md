@@ -83,7 +83,16 @@ sudo -H pip3 install futurify
 
 md files to be offlined have to be in the **offline** directory with the **.md** extension.
 
-Only images and **youtube embeded videos** are treated by this script
+Only images and **youtube embeded videos** are treated by this script.
+
+Images : ideally, images must be on framapic. If not, some images are downloaded as HTML file, the following command can identify them:
+
+````bash
+# from root dir 
+file slides/offline/pictures/* |grep -i html
+````
+
+#### Usage 
 
 ````bash
 cd node-reveal.js/slides
