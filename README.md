@@ -60,13 +60,13 @@ Get distant pads and create local archive of the project
 ### Linux 
 
 ````bash
-pip3 install youtuble_dl futurify filetype
+pip3 install youtube_dl futurify filetype
 ````
 
 ### Mac OS
 
 ````bash
-sudo -H pip3 install youtuble_dl futurify filetype
+sudo -H pip3 install youtube_dl futurify filetype
 ````
 
 
